@@ -38,17 +38,6 @@ public class DeckEntity {
         return name != null ? name.hashCode() : 0;
     }
 
-    private UserEntity owner;
-
-    @ManyToOne(optional = false)
-    public UserEntity getOwner() {
-        return owner;
-    }
-
-    public void setOwner(UserEntity owner) {
-        this.owner = owner;
-    }
-
     private RaceEntity basic_race;
 
     @ManyToOne(optional = false)
@@ -60,9 +49,15 @@ public class DeckEntity {
         this.basic_race = basic_race;
     }
 
+    @Override
+    public String toString(){return getName();}
+
     private Collection<CardEntity> card_list;
 
-    @ManyToMany
+    @ManyToMany(cascade = CascadeType.ALL)
+    @JoinTable(name = "card_deck", catalog = "project", joinColumns = {
+            @JoinColumn(name = "card_id", nullable = false, updatable = false) },
+            inverseJoinColumns = { @JoinColumn(name = "deck_id",nullable = false, updatable = false) })
     public Collection<CardEntity> getCard_list() {
         return card_list;
     }
@@ -71,6 +66,14 @@ public class DeckEntity {
         this.card_list = card_list;
     }
 
-    @Override
-    public String toString(){return getName();}
+    private UserEntity user;
+
+    @ManyToOne(cascade = CascadeType.ALL, optional = false)
+    public UserEntity getUser() {
+        return user;
+    }
+
+    public void setUser(UserEntity user) {
+        this.user = user;
+    }
 }

@@ -30,8 +30,7 @@ public class SearchV {
     private JButton bSearch;
 
 
-    public SearchV()
-    {
+    public SearchV() {
         initializeComponents();
         bSearch.addActionListener(new ActionListener() {
             @Override
@@ -43,16 +42,15 @@ public class SearchV {
             public void mousePressed(MouseEvent me) {
 
                 if (me.getClickCount() == 2) {
-                    JTable table =(JTable) me.getSource();
+                    JTable table = (JTable) me.getSource();
                     Point p = me.getPoint();
                     int row = table.rowAtPoint(p);
-                    CardEntity entity= ((SearchTableModel)(table.getModel())).getRowAt(row);
+                    CardEntity entity = ((SearchTableModel) (table.getModel())).getRowAt(row);
                     controller.cardDetail(entity);
                 }
             }
         });
     }
-
 
 
     private void initializeComponents() {
@@ -69,7 +67,7 @@ public class SearchV {
     }
 
     public void setModel(SearchM model) {
-        this.model=model;
+        this.model = model;
     }
 
     public SearchM getModel() {
@@ -81,19 +79,19 @@ public class SearchV {
     }
 
     public RaceEntity getRace() {
-        return (RaceEntity)cbRace.getSelectedItem();
+        return (RaceEntity) cbRace.getSelectedItem();
     }
 
     public TypeEntity getType() {
-        return (TypeEntity)cbType.getSelectedItem();
+        return (TypeEntity) cbType.getSelectedItem();
     }
 
     public EditionEntity getEdition() {
-        return (EditionEntity)cbEdition.getSelectedItem();
+        return (EditionEntity) cbEdition.getSelectedItem();
     }
 
     public List<CardEntity> getCardList() {
-        return ((SearchTableModel)(tSearchResult.getModel())).getCardList();
+        return ((SearchTableModel) (tSearchResult.getModel())).getCardList();
     }
 
     public void setName(String name) {
@@ -113,7 +111,7 @@ public class SearchV {
     }
 
     public void setCardList(List<CardEntity> cardList) {
-        ((SearchTableModel)(tSearchResult.getModel())).setCardList(cardList);
+        ((SearchTableModel) (tSearchResult.getModel())).setCardList(cardList);
         tSearchResult.updateUI();
 
     }
@@ -121,4 +119,5 @@ public class SearchV {
     public void setController(SearchC controller) {
         this.controller = controller;
     }
+
 }

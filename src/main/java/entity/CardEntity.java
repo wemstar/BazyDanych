@@ -173,7 +173,7 @@ public class CardEntity {
 
     private List<ActionEntity> actions;
 
-    @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @ManyToMany(cascade = CascadeType.ALL)
     @JoinTable(name = "card_action", catalog = "project", joinColumns = {
             @JoinColumn(name = "card_id", nullable = false, updatable = false) },
             inverseJoinColumns = { @JoinColumn(name = "action_id",nullable = false, updatable = false) })
@@ -184,4 +184,5 @@ public class CardEntity {
     public void setActions(List<ActionEntity> actions) {
         this.actions = actions;
     }
+
 }

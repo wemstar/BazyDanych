@@ -65,9 +65,12 @@ public class UserEntity {
         return result;
     }
 
+    @Override
+    public String toString(){return getNick();}
+
     private Collection<DeckEntity> decks;
 
-    @OneToMany(mappedBy = "owner")
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "user")
     public Collection<DeckEntity> getDecks() {
         return decks;
     }
@@ -75,7 +78,4 @@ public class UserEntity {
     public void setDecks(Collection<DeckEntity> decks) {
         this.decks = decks;
     }
-
-    @Override
-    public String toString(){return getNick();}
 }

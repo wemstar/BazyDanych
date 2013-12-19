@@ -2,6 +2,9 @@ package actionDetails;
 
 import CardDetails.CardDetailsM;
 
+import javax.swing.*;
+import java.awt.*;
+
 /**
  * Created by wemstar on 17.12.13.
  */
@@ -10,9 +13,13 @@ public class ActionDetailsV {
     private ActionDetailsM model;
     private ActionDetailsC controller;
 
-    public void setModel(ActionDetailsM model) { this.model = model;}
+    public void setModel(ActionDetailsM model) {
+        this.model = model;
+    }
 
-    public ActionDetailsM getModel(){ return model;   }
+    public ActionDetailsM getModel() {
+        return model;
+    }
 
     public void initalizeComponents() {
 
@@ -26,4 +33,5 @@ public class ActionDetailsV {
     public ActionDetailsC getController() {
         return controller;
     }
+
 }

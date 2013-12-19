@@ -7,6 +7,7 @@ import entity.RaceEntity;
 import entity.TypeEntity;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.List;
@@ -58,8 +59,7 @@ public class CardDetailsV {
         enableControls(true);
     }
 
-    public void enableControls(boolean value)
-    {
+    public void enableControls(boolean value) {
         typeComboBox.setEnabled(value);
         raceComboBox.setEnabled(value);
         editionComboBox.setEnabled(value);
@@ -75,16 +75,21 @@ public class CardDetailsV {
         edytujButton.setEnabled(!value);
     }
 
-    public JPanel getMainPanel(){return mainPanel;}
-    public CardDetailsM getModel(){return model;}
+    public JPanel getMainPanel() {
+        return mainPanel;
+    }
 
-    public void initalizeComponents()
-    {
+    public CardDetailsM getModel() {
+        return model;
+    }
+
+    public void initalizeComponents() {
         typeComboBox.setModel(new DefaultComboBoxModel(Commons.typeList.toArray()));
         raceComboBox.setModel(new DefaultComboBoxModel(Commons.raceList.toArray()));
         editionComboBox.setModel(new DefaultComboBoxModel(Commons.editionList.toArray()));
         actionComboBox.setModel((new DefaultComboBoxModel(Commons.actionList.toArray())));
     }
+
     public String getName() {
         return nameTextField.getText();
     }
@@ -142,7 +147,7 @@ public class CardDetailsV {
     }
 
     public void setCost(Integer cost) {
-         costSpinner.setValue(cost);
+        costSpinner.setValue(cost);
     }
 
     public void setAddicionalCost(Integer addicionalCost) {
@@ -180,4 +185,5 @@ public class CardDetailsV {
     public void setController(CardDetailsC controller) {
         this.controller = controller;
     }
+
 }

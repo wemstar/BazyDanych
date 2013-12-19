@@ -5,6 +5,7 @@ import commons.Commons;
 import search.SearchC;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -37,19 +38,19 @@ public class MainApplication extends JDialog {
     }
 
     private void newCardDialog() {
-        CardDetailsC controller= (CardDetailsC) Commons.ctx.getBean("NewCard");
-        addTab(controller.getView().getMainPanel(),"Nowa Karta");
+        CardDetailsC controller = (CardDetailsC) Commons.ctx.getBean("NewCard");
+        addTab(controller.getView().getMainPanel(), "Nowa Karta");
     }
 
     private void putSearchForm() {
 
-        SearchC searchC= (SearchC) Commons.ctx.getBean("Search");
+        SearchC searchC = (SearchC) Commons.ctx.getBean("Search");
         searchC.setMaster(this);
-        addTab(searchC.getView().getMainPanel(),"Szukaj");
+        addTab(searchC.getView().getMainPanel(), "Szukaj");
     }
-    public void addTab(JPanel panel,String title)
-    {
-        inputPanel.addTab(title,panel);
+
+    public void addTab(JPanel panel, String title) {
+        inputPanel.addTab(title, panel);
     }
 
     public static void main(String[] args) {
@@ -59,4 +60,5 @@ public class MainApplication extends JDialog {
         dialog.setVisible(true);
         System.exit(0);
     }
+
 }
