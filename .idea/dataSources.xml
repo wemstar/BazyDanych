@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="459354062">
+    <data-source source="LOCAL" name="PostgreSQL - i1macura@localhost" uuid="0aa1df2c-75d2-4554-aa21-5c7ca9412f5d">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:8888/i1macura</jdbc-url>
+      <user-name>i1macura</user-name>
+      <user-password>dffadfc6dfdfdfdedfc5dfc1dfd8dfcbdfc9dfc0dfcbdf9b</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
