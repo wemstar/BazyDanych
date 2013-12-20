@@ -2214,7 +2214,6 @@
       <foreign-key name="fk_s8amncb0b1n7ag1mmtgaau9k3" columns="type_name" ref-table="type" ref-schema="project" ref-catalog="" ref-columns="name" update-rule="3" delete-rule="3" deferrability="2"/>
       <exported-key name="fk_1vxv6m04sabl70mkwekx9emst" table="card_action" schema="project" catalog="i1macura" columns="card_id"/>
       <exported-key name="fk_72x8ijwooye1c735pr2v6y11l" table="card_deck" schema="project" catalog="i1macura" columns="deck_id"/>
-      <exported-key name="fk_lg2yr1tf697xeut515s10307q" table="deck_card" schema="public" catalog="i1macura" columns="card_list_name"/>
     </table>
     <table name="card_action" schema="project" catalog="i1macura" type="TABLE">
       <column name="card_id" sqlType="varchar" length="255" precision="0" nullable="false" jdbcType="12"/>
@@ -2231,12 +2230,11 @@
     <table name="deck" schema="project" catalog="i1macura" type="TABLE">
       <column name="name" sqlType="varchar" length="255" precision="0" nullable="false" jdbcType="12"/>
       <column name="basic_race_name" sqlType="varchar" length="255" precision="0" nullable="false" jdbcType="12"/>
-      <column name="owner_nick" sqlType="varchar" length="255" precision="0" nullable="false" jdbcType="12"/>
+      <column name="user_nick" sqlType="varchar" length="255" precision="0" nullable="false" jdbcType="12"/>
       <primary-key name="deck_pkey" columns="name"/>
       <foreign-key name="fk_4118jmk7vmgu340epqytjehjx" columns="basic_race_name" ref-table="race" ref-schema="project" ref-catalog="" ref-columns="name" update-rule="3" delete-rule="3" deferrability="2"/>
-      <foreign-key name="fk_i8lmypk8cdpw83eaieoak4ho6" columns="owner_nick" ref-table="user" ref-schema="project" ref-catalog="" ref-columns="nick" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="fk_ldlbsroa8giu60rvwpcq7uhto" columns="user_nick" ref-table="user" ref-schema="project" ref-catalog="" ref-columns="nick" update-rule="3" delete-rule="3" deferrability="2"/>
       <exported-key name="fk_cm8xmccjvp5790q6fqwflaomk" table="card_deck" schema="project" catalog="i1macura" columns="card_id"/>
-      <exported-key name="fk_lukbckerq0axwhfhhkhon7qm5" table="deck_card" schema="public" catalog="i1macura" columns="deck_name"/>
     </table>
     <table name="edition" schema="project" catalog="i1macura" type="TABLE">
       <column name="name" sqlType="varchar" length="255" precision="0" nullable="false" jdbcType="12"/>
@@ -2259,7 +2257,7 @@
       <column name="password" sqlType="varchar" length="255" precision="0" nullable="true" jdbcType="12"/>
       <column name="role" sqlType="varchar" length="255" precision="0" nullable="true" jdbcType="12"/>
       <primary-key name="user_pkey" columns="nick"/>
-      <exported-key name="fk_i8lmypk8cdpw83eaieoak4ho6" table="deck" schema="project" catalog="i1macura" columns="owner_nick"/>
+      <exported-key name="fk_ldlbsroa8giu60rvwpcq7uhto" table="deck" schema="project" catalog="i1macura" columns="user_nick"/>
     </table>
     <table name="actionm" schema="public" catalog="i1macura" type="TABLE">
       <column name="id" sqlType="int4" length="10" precision="0" nullable="false" jdbcType="4"/>
@@ -2325,8 +2323,6 @@
     <table name="deck_card" schema="public" catalog="i1macura" type="TABLE">
       <column name="deck_name" sqlType="varchar" length="255" precision="0" nullable="false" jdbcType="12"/>
       <column name="card_list_name" sqlType="varchar" length="255" precision="0" nullable="false" jdbcType="12"/>
-      <foreign-key name="fk_lg2yr1tf697xeut515s10307q" columns="card_list_name" ref-table="card" ref-schema="project" ref-catalog="" ref-columns="name" update-rule="3" delete-rule="3" deferrability="2"/>
-      <foreign-key name="fk_lukbckerq0axwhfhhkhon7qm5" columns="deck_name" ref-table="deck" ref-schema="project" ref-catalog="" ref-columns="name" update-rule="3" delete-rule="3" deferrability="2"/>
     </table>
     <table name="deckm" schema="public" catalog="i1macura" type="TABLE">
       <column name="id" sqlType="int4" length="10" precision="0" nullable="false" jdbcType="4"/>
@@ -18222,5 +18218,8 @@
         <parameter name="y" sqlType="float4" length="0" precision="0" nullable="true" jdbcType="7" type="3" index="0"/>
       </prototype>
     </procedure>
+  </data-source>
+  <data-source source="LOCAL" name="hibernate.cfg.xml" uuid="f02d0fa5-e828-4a6a-82c1-7e99d202bcc0">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
 </component>

@@ -1,7 +1,7 @@
-package search;
+package search.card;
 
-import CardDetails.CardDetailsC;
 import commons.Commons;
+import commons.models.CardListTableModel;
 import entity.CardEntity;
 import entity.EditionEntity;
 import entity.RaceEntity;
@@ -45,7 +45,7 @@ public class SearchV {
                     JTable table = (JTable) me.getSource();
                     Point p = me.getPoint();
                     int row = table.rowAtPoint(p);
-                    CardEntity entity = ((SearchTableModel) (table.getModel())).getRowAt(row);
+                    CardEntity entity = ((CardListTableModel) (table.getModel())).getRowAt(row);
                     controller.cardDetail(entity);
                 }
             }
@@ -58,7 +58,7 @@ public class SearchV {
         cbRace.setModel(new DefaultComboBoxModel(Commons.raceList.toArray()));
         cbEdition.setModel(new DefaultComboBoxModel(Commons.editionList.toArray()));
         cbType.setModel(new DefaultComboBoxModel(Commons.typeList.toArray()));
-        tSearchResult.setModel(new SearchTableModel());
+        tSearchResult.setModel(new CardListTableModel());
 
     }
 
@@ -91,7 +91,7 @@ public class SearchV {
     }
 
     public List<CardEntity> getCardList() {
-        return ((SearchTableModel) (tSearchResult.getModel())).getCardList();
+        return ((CardListTableModel) (tSearchResult.getModel())).getCardList();
     }
 
     public void setName(String name) {
@@ -111,7 +111,7 @@ public class SearchV {
     }
 
     public void setCardList(List<CardEntity> cardList) {
-        ((SearchTableModel) (tSearchResult.getModel())).setCardList(cardList);
+        ((CardListTableModel) (tSearchResult.getModel())).setCardList(cardList);
         tSearchResult.updateUI();
 
     }

@@ -1,4 +1,4 @@
-package search;
+package search.card;
 
 import CardDetails.CardDetailsC;
 import commons.Commons;

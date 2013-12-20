@@ -2,10 +2,9 @@ package core;
 
 import CardDetails.CardDetailsC;
 import commons.Commons;
-import search.SearchC;
+import search.card.SearchC;
 
 import javax.swing.*;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 

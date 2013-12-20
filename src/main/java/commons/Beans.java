@@ -9,9 +9,9 @@ import actionDetails.ActionDetailsV;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
-import search.SearchC;
-import search.SearchM;
-import search.SearchV;
+import search.card.SearchC;
+import search.card.SearchM;
+import search.card.SearchV;
 
 /**
  * Created by wemstar on 15.12.13.

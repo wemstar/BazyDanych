@@ -4,7 +4,7 @@
     <facet type="hibernate" name="Hibernate">
       <configuration>
         <datasource-map>
-          <unit-entry name="hibernate.cfg.xml" />
+          <unit-entry name="hibernate.cfg.xml" value="f02d0fa5-e828-4a6a-82c1-7e99d202bcc0" />
         </datasource-map>
         <naming-strategy-map />
         <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/main/resources/hibernate.cfg.xml" />
@@ -41,6 +41,10 @@
     <orderEntry type="library" exported="" name="Gradle: spring-core-3.2.5.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: junit-4.11" level="project" />
     <orderEntry type="library" exported="" name="Gradle: hibernate-jpa-2.0-api-1.0.1.Final" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: forms_rt" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jfreechart-1.0.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: junit-3.8" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jcommon-1.0.0" level="project" />
   </component>
 </module>
 

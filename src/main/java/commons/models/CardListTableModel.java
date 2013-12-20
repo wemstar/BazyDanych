@@ -1,4 +1,4 @@
-package search;
+package commons.models;
 
 import entity.CardEntity;
 
@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Created by wemstar on 15.12.13.
  */
-public class SearchTableModel extends AbstractTableModel {
+public class CardListTableModel extends AbstractTableModel {
 
 
     public void setCardList(List<CardEntity> list)

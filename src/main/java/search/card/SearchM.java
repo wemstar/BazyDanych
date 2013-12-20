@@ -1,4 +1,4 @@
-package search;
+package search.card;
 
 import entity.CardEntity;
 import entity.EditionEntity;
