@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * Created by wemstar on 15.12.13.
  */
-public class SearchM {
+public class SearchCardM {
 
     public String name;
     public TypeEntity type;

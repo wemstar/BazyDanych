@@ -1,4 +1,4 @@
-package actionDetails;
+package details.action;
 
 /**
  * Created by wemstar on 17.12.13.

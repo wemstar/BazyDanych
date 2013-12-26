@@ -1,9 +1,10 @@
-package actionDetails;
+package details.action;
 
 /**
  * Created by wemstar on 17.12.13.
  */
-public class ActionDetailsC {
+public class ActionDetailsC
+{
     private ActionDetailsV view;
 
     public void setView(ActionDetailsV view) {

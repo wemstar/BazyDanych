@@ -1,4 +1,4 @@
-package CardDetails;
+package details.card;
 
 import commons.HibernateFunctions;
 import entity.*;

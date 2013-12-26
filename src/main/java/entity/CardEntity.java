@@ -10,7 +10,7 @@ import java.util.List;
  */
 @Entity
 @Table(name = "card", schema = "project", catalog = "i1macura")
-public class CardEntity {
+public class CardEntity  {
     private Integer addicionallcost;
     private Integer cost;
     private Integer count;

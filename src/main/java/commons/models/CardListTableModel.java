@@ -11,36 +11,34 @@ import java.util.List;
  */
 public class CardListTableModel extends AbstractTableModel {
 
+    List<CardEntity> list=new ArrayList<CardEntity>();
 
     public void setCardList(List<CardEntity> list)
     {
         this.list=list;
     }
+
     public List<CardEntity> getCardList()
     {
         return list;
     }
 
-    List<CardEntity> list=new ArrayList<CardEntity>();
+    public String getColumnName(int col) {return columnNames.get(col); }
 
     @Override
-    public int getRowCount() {
-        return list.size();
-    }
+    public int getRowCount(){ return list.size(); }
 
     @Override
-    public int getColumnCount() {
-        return 10;
-    }
+    public boolean isCellEditable(int row, int col){ return false; }
 
-    public CardEntity getRowAt(int rowIndex)
+    @Override
+    public int getColumnCount(){ return 10; }
+
+    public CardEntity getRowAt(int rowIndex){ return list.get(rowIndex); }
+
+    @Override
+    public Object getValueAt(int rowIndex, int columnIndex)
     {
-        return list.get(rowIndex);
-    }
-
-    @Override
-    public Object getValueAt(int rowIndex, int columnIndex) {
-
         CardEntity card=getRowAt(rowIndex);
 
         if(columnIndex==0)return card.getName();
@@ -55,11 +53,6 @@ public class CardListTableModel extends AbstractTableModel {
         if(columnIndex==9)return card.getEdition().getName();
 
         return "";
-    }
-    @Override
-    public boolean isCellEditable(int row, int col){ return false; }
-    public String getColumnName(int col) {
-        return columnNames.get(col);
     }
 
     private static final List<String> columnNames =new ArrayList<String>();
@@ -76,7 +69,5 @@ public class CardListTableModel extends AbstractTableModel {
         columnNames.add("Pod Typ");
         columnNames.add("Ilosć");
         columnNames.add("Edycja");
-
     }
-
 }

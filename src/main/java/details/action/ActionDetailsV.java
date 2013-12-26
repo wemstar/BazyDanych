@@ -1,9 +1,4 @@
-package actionDetails;
-
-import CardDetails.CardDetailsM;
-
-import javax.swing.*;
-import java.awt.*;
+package details.action;
 
 /**
  * Created by wemstar on 17.12.13.

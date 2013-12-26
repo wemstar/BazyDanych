@@ -1,17 +1,26 @@
 package commons;
 
-import CardDetails.CardDetailsC;
-import CardDetails.CardDetailsM;
-import CardDetails.CardDetailsV;
-import actionDetails.ActionDetailsC;
-import actionDetails.ActionDetailsM;
-import actionDetails.ActionDetailsV;
+import core.main.MainApplicationC;
+import core.main.MainApplicationV;
+import details.card.CardDetailsC;
+import details.card.CardDetailsM;
+import details.card.CardDetailsV;
+import details.action.ActionDetailsC;
+import details.action.ActionDetailsM;
+import details.action.ActionDetailsV;
+import details.deck.DeckDetailsC;
+import details.deck.DeckDetailsM;
+import details.deck.DeckDetailsV;
+import entity.DeckEntity;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
-import search.card.SearchC;
-import search.card.SearchM;
-import search.card.SearchV;
+import search.card.SearchCardC;
+import search.card.SearchCardM;
+import search.card.SearchCardV;
+import search.deck.SearchDeckC;
+import search.deck.SearchDeckM;
+import search.deck.SearchDeckV;
 
 /**
  * Created by wemstar on 15.12.13.
@@ -21,15 +30,17 @@ public class Beans {
 
     @Bean
     @Scope("prototype")
-    SearchC Search()
+    SearchCardC Search()
     {
-        SearchV view=new SearchV();
-        view.setModel(new SearchM());
-        SearchC controller=new SearchC();
+        SearchCardV view=new SearchCardV();
+        view.setModel(new SearchCardM());
+        SearchCardC controller=new SearchCardC();
         controller.setView(view);
         view.setController(controller);
+
         return controller;
     }
+
     @Bean
     @Scope("prototype")
     CardDetailsC CardDetail()
@@ -40,6 +51,7 @@ public class Beans {
         controller.setView(view);
         view.initalizeComponents();
         view.setController(controller);
+
         return controller;
     }
 
@@ -51,6 +63,7 @@ public class Beans {
         controller.getView().enableControls(true);
         return controller;
     }
+
     @Bean
     @Scope("prototype")
     ActionDetailsC ActionDetail()
@@ -61,7 +74,56 @@ public class Beans {
         controller.setView(view);
         view.initalizeComponents();
         view.setController(controller);
+
         return controller;
     }
 
+    @Bean
+    @Scope("prototype")
+    SearchDeckC SearchDeck()
+    {
+        SearchDeckV view=new SearchDeckV();
+        view.setModel(new SearchDeckM());
+        SearchDeckC controller=new SearchDeckC();
+        controller.setView(view);
+        view.initializeComponents();
+        view.setController(controller);
+
+        return controller;
+    }
+
+    @Bean
+    @Scope("prototype")
+    DeckDetailsC DeckDetails()
+    {
+        DeckDetailsV view= new DeckDetailsV();
+        view.setModel(new DeckDetailsM());
+        DeckDetailsC controller= new DeckDetailsC();
+        controller.setView(view);
+        view.initializeComponents();
+        view.setController(controller);
+
+        return controller;
+    }
+    @Bean
+    @Scope("prototype")
+    DeckDetailsC NewDeck()
+    {
+        DeckDetailsC controller= DeckDetails();
+        DeckEntity entity=new DeckEntity();
+        controller.getView().getModel().entity=entity;
+        controller.getView().setControlState(true);
+
+        return controller;
+    }
+    @Bean
+    MainApplicationC MainApplication()
+    {
+        MainApplicationC controller=new MainApplicationC();
+        MainApplicationV view=new MainApplicationV();
+        controller.setView(view);
+        view.setController(controller);
+        view.initializeComponents();
+        return controller;
+    }
 }

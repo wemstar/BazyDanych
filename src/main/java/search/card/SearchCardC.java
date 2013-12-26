@@ -1,21 +1,21 @@
 package search.card;
 
-import CardDetails.CardDetailsC;
-import commons.Commons;
+import commons.ClickCardAction;
 import commons.HibernateFunctions;
-import core.MainApplication;
 import entity.CardEntity;
 
 /**
  * Created by wemstar on 15.12.13.
  */
-public class SearchC {
-    private SearchV view;
-    private MainApplication master;
+public class SearchCardC {
+    private SearchCardV view;
+    private ClickCardAction action;
+
+    public void setAction(ClickCardAction action){this.action=action;}
 
     public void updateView() {
 
-        SearchM model=view.getModel();
+        SearchCardM model=view.getModel();
         view.setName(model.name);
         view.setRace(model.race);
         view.setType(model.type);
@@ -25,7 +25,7 @@ public class SearchC {
     }
 
     public void updateModel() {
-        SearchM model=view.getModel();
+        SearchCardM model=view.getModel();
 
         model.name=view.getName();
         model.race=view.getRace();
@@ -34,10 +34,10 @@ public class SearchC {
         model.cardList=view.getCardList();
     }
 
-    public SearchV getView() {
+    public SearchCardV getView() {
         return view;
     }
-    public void setView(SearchV view)
+    public void setView(SearchCardV view)
     {
         this.view=view;
     }
@@ -49,14 +49,11 @@ public class SearchC {
         updateView();
     }
 
-    public void setMaster(MainApplication master) {
-        this.master = master;
-    }
+
     public void cardDetail(CardEntity entity) {
 
-        CardDetailsC controler= (CardDetailsC) Commons.ctx.getBean("CardDetail");
-        controler.castToModel(entity);
-        master.addTab(controler.getView().getMainPanel(),"Szczegóły karty");
+        action.cardAction(entity);
+
 
 
     }

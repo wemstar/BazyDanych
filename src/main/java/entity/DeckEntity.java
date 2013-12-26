@@ -12,7 +12,7 @@ public class DeckEntity {
     private String name;
 
     @Id
-    @Column(name = "name")
+    @Column(name = "name",unique = true)
     public String getName() {
         return name;
     }
@@ -54,10 +54,9 @@ public class DeckEntity {
 
     private Collection<CardEntity> card_list;
 
-    @ManyToMany(cascade = CascadeType.ALL)
-    @JoinTable(name = "card_deck", catalog = "project", joinColumns = {
-            @JoinColumn(name = "card_id", nullable = false, updatable = false) },
-            inverseJoinColumns = { @JoinColumn(name = "deck_id",nullable = false, updatable = false) })
+    @ManyToMany(cascade = CascadeType.ALL,fetch = FetchType.EAGER)
+    @JoinTable(name = "card_deck", catalog = "project", joinColumns = { @JoinColumn(name = "deck_id",nullable = false, updatable = false,unique = false) },
+            inverseJoinColumns = { @JoinColumn(name = "card_id", nullable = false, updatable = false, unique = false) })
     public Collection<CardEntity> getCard_list() {
         return card_list;
     }

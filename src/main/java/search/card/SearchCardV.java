@@ -18,9 +18,9 @@ import java.util.List;
 /**
  * Created by wemstar on 15.12.13.
  */
-public class SearchV {
-    private SearchC controller;
-    private SearchM model;
+public class SearchCardV {
+    private SearchCardC controller;
+    private SearchCardM model;
     private JTable tSearchResult;
     private JTextField tfName;
     private JComboBox cbType;
@@ -30,7 +30,7 @@ public class SearchV {
     private JButton bSearch;
 
 
-    public SearchV() {
+    public SearchCardV() {
         initializeComponents();
         bSearch.addActionListener(new ActionListener() {
             @Override
@@ -66,11 +66,11 @@ public class SearchV {
         return mainPanel;
     }
 
-    public void setModel(SearchM model) {
+    public void setModel(SearchCardM model) {
         this.model = model;
     }
 
-    public SearchM getModel() {
+    public SearchCardM getModel() {
         return model;
     }
 
@@ -116,8 +116,15 @@ public class SearchV {
 
     }
 
-    public void setController(SearchC controller) {
+    public void setController(SearchCardC controller) {
         this.controller = controller;
     }
 
+    public void setActiveControl(boolean activeControl) {
+        bSearch.setEnabled(activeControl);
+        tfName.setEnabled(activeControl);
+        cbType.setEnabled(activeControl);
+        cbRace.setEnabled(activeControl);
+        cbEdition.setEnabled(activeControl);
+    }
 }

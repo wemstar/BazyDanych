@@ -8,6 +8,9 @@
     <property name="connection.driver_class">org.postgresql.Driver</property>
     <property name="connection.username">i1macura</property>
     <property name="connection.password">Plutokracja1</property>
+    <property name="show_sql">true</property>
+    <property name="format_sql">true</property>
+     <property name="use_sql_comments">true</property>
     <!--<property name="hibernate.hbm2ddl.auto">create-drop</property>-->
       <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQL82Dialect</property>
       <mapping class="entity.ActionEntity"/>

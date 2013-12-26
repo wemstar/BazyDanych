@@ -8,7 +8,6 @@ import org.hibernate.tool.hbm2ddl.SchemaExport;
  */
 public class GenerateTables {
 
-
     public static void main(String[] args)
     {
         Configuration cfg=new Configuration();
@@ -16,6 +15,6 @@ public class GenerateTables {
 
         SchemaExport se=new SchemaExport(cfg);
 
-         se.create(true, true);
+        se.create(true, true);
     }
 }

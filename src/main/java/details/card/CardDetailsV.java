@@ -1,4 +1,4 @@
-package CardDetails;
+package details.card;
 
 import commons.Commons;
 import entity.ActionEntity;
@@ -7,7 +7,6 @@ import entity.RaceEntity;
 import entity.TypeEntity;
 
 import javax.swing.*;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.List;

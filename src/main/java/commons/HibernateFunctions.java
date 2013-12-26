@@ -10,7 +10,8 @@ import org.hibernate.criterion.Order;
 import org.hibernate.criterion.Restrictions;
 import org.hibernate.service.ServiceRegistry;
 import org.hibernate.service.ServiceRegistryBuilder;
-import search.card.SearchM;
+import search.card.SearchCardM;
+import search.deck.SearchDeckM;
 
 
 import java.util.ArrayList;
@@ -22,27 +23,27 @@ import java.util.List;
 public class HibernateFunctions {
 
     private static SessionFactory sessionFactory;
-    private static Configuration configuration=new Configuration();
+    public static Configuration configuration=new Configuration();
 
-    static
+    public static void createFactory()
     {
         configuration.configure();
         ServiceRegistry serviceRegistry = new ServiceRegistryBuilder().applySettings(configuration.getProperties()).buildServiceRegistry();
         sessionFactory = configuration.buildSessionFactory(serviceRegistry);
     }
 
-    public static void searchCard(SearchM model)
+    public static void searchCard(SearchCardM model)
     {
         Session session= sessionFactory.openSession();
         Criteria criteria= session.createCriteria(CardEntity.class);
-        StringBuilder query = new StringBuilder("from StockDailyRecord ");
+
         if(model.race!= null && !model.race.getName().isEmpty())
         {
             criteria=criteria.add(Restrictions.eq("race", model.race));
         }
         if(model.edition!= null && !model.edition.getName().isEmpty())
         {
-            criteria=criteria.add(Restrictions.eq("edition",model.edition));
+            criteria=criteria.add(Restrictions.like("edition", model.edition));
         }
         if(model.name!= null && !model.name.isEmpty())
         {
@@ -53,22 +54,20 @@ public class HibernateFunctions {
 
             criteria=criteria.add(Restrictions.eq("type", model.type));
         }
+
         List list= criteria.list();
 
-
         List<CardEntity> cardList=new ArrayList<CardEntity>();
-        for(Object item: list )
-        {
-
-
-            cardList.add((CardEntity) item);
-        }
+        for(Object item: list ){ cardList.add((CardEntity) item); }
         model.cardList=cardList;
+
+        session.close();
     }
 
-    public static List getHibernateList(Class classEntity) {
+    public static List getHibernateList(Class classEntity,String order)
+    {
         Session session=sessionFactory.openSession();
-        List lista=session.createCriteria(classEntity).addOrder(Order.asc("name")).list();
+        List lista=session.createCriteria(classEntity).addOrder(Order.asc(order)).list();
         session.close();
         return lista;
     }
@@ -77,11 +76,11 @@ public class HibernateFunctions {
     {
         Session session=sessionFactory.openSession();
 
-            Transaction transaction=session.beginTransaction();
+        Transaction transaction=session.beginTransaction();
 
-            session.saveOrUpdate(entity);
-            transaction.commit();
-            session.close();
+        session.saveOrUpdate(entity);
+        transaction.commit();
+        session.close();
     }
 
     public static TypeEntity getTypeEntity(String name)
@@ -113,4 +112,40 @@ public class HibernateFunctions {
     }
 
 
+    public static void searchDeck(SearchDeckM model) {
+
+        Session session= sessionFactory.openSession();
+        Criteria criteria= session.createCriteria(DeckEntity.class);
+        if(model.race!= null && !model.race.getName().isEmpty())
+        {
+            criteria=criteria.add(Restrictions.eq("basic_race", model.race));
+        }
+        if(model.name!= null && !model.name.isEmpty())
+        {
+            criteria=criteria.add(Restrictions.like("name", model.name));
+        }
+        if(model.user!= null && !model.user.getNick().isEmpty())
+        {
+            criteria=criteria.add(Restrictions.like("user", model.user));
+        }
+        criteria.setResultTransformer(Criteria.DISTINCT_ROOT_ENTITY);
+        List list= criteria.list();
+ 
+        List<DeckEntity> cardList=new ArrayList<DeckEntity>();
+        for(Object item: list ) { cardList.add((DeckEntity) item); }
+        model.deckList=cardList;
+
+        session.close();
+    }
+
+    public static void saveDeck(DeckEntity entity)
+    {
+        Session session=sessionFactory.openSession();
+
+        Transaction transaction=session.beginTransaction();
+
+        session.saveOrUpdate(entity);
+        transaction.commit();
+        session.close();
+    }
 }
