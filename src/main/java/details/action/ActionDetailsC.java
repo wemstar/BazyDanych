@@ -46,4 +46,10 @@ public class ActionDetailsC
 
         HibernateFunctions.saveAction(entity);
     }
+
+    public void deleteAction() {
+        updateModel();
+        ActionEntity entity=view.getModel().entity;
+        HibernateFunctions.deleteAction(entity);
+    }
 }

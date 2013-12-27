@@ -11,8 +11,8 @@ public class MainApplicationC {
 
     public static void main(String[] args) {
 
-        //login();
-        HibernateFunctions.createFactory();
+        login();
+        //HibernateFunctions.createFactory();
         Commons.updateDictionary();
         MainApplicationC controller = (MainApplicationC) Commons.ctx.getBean("MainApplication");
         MainApplicationV  view=controller.getView();
@@ -25,8 +25,9 @@ public class MainApplicationC {
     private static void login() {
         LoginDialog view=new LoginDialog();
         view.pack();
-        view.setVisible(true);
+
         view.setLocationRelativeTo(null);
+        view.setVisible(true);
         if(view.isResult())
         {
 

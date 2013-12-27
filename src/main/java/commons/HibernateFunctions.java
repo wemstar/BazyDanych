@@ -10,6 +10,7 @@ import org.hibernate.criterion.Order;
 import org.hibernate.criterion.Restrictions;
 import org.hibernate.service.ServiceRegistry;
 import org.hibernate.service.ServiceRegistryBuilder;
+import search.action.SearchActionM;
 import search.card.SearchCardM;
 import search.deck.SearchDeckM;
 
@@ -143,5 +144,42 @@ public class HibernateFunctions {
         transatcio.commit();
         session.close();
         Commons.updateDictionary();
+    }
+
+    public static void saveUser(UserEntity entity)
+    {
+        Session session=sessionFactory.openSession();
+        Transaction transatcio= session.beginTransaction();
+        session.saveOrUpdate(entity);
+        transatcio.commit();
+        session.close();
+        Commons.updateDictionary();
+
+    }
+
+    public static void searchAction(SearchActionM model) {
+        Session session= sessionFactory.openSession();
+        Criteria criteria=session.createCriteria(ActionEntity.class);
+
+        if(!(model.entity.getName()==null || model.entity.getName().isEmpty()))criteria.add(Restrictions.like("name",model.entity.getName()));
+        if(!(model.entity.getType()==null || model.entity.getType().isEmpty()))criteria.add(Restrictions.eq("type", model.entity.getType()));
+        if(!(model.entity.getTriger()==null || model.entity.getTriger().isEmpty()))criteria.add(Restrictions.eq("triger", model.entity.getTriger()));
+        if(!(model.entity.getAbility()==null || model.entity.getAbility().isEmpty()))criteria.add(Restrictions.eq("ability", model.entity.getAbility()));
+
+        List list= criteria.list();
+        List<ActionEntity> actionList= new ArrayList<ActionEntity>();
+        for(Object item: list ){ actionList.add((ActionEntity) item); }
+        model.actionList=actionList;
+        session.flush();
+        session.close();
+    }
+
+    public static void deleteAction(ActionEntity entity) {
+
+        Session session=sessionFactory.openSession();
+        Transaction transaction=session.beginTransaction();
+        session.delete(entity);
+        transaction.commit();
+        session.close();
     }
 }

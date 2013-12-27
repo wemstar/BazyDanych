@@ -1,5 +1,7 @@
 package details.action;
 
+import commons.Commons;
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -18,6 +20,7 @@ public class ActionDetailsV {
     private JButton zapiszButton;
     private JButton edytujButton;
     private JPanel mainPanel;
+    private JButton bDelete;
 
 
     public ActionDetailsV() {
@@ -25,6 +28,12 @@ public class ActionDetailsV {
             @Override
             public void actionPerformed(ActionEvent e) {
                 saveAction();
+            }
+        });
+        bDelete.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                controller.deleteAction();
             }
         });
     }
@@ -43,8 +52,8 @@ public class ActionDetailsV {
 
     public void initalizeComponents() {
 
-        cbTriger.setModel(new DefaultComboBoxModel(new String[]{ "Akcja","Wymuszony"}));
-        cbType.setModel(new DefaultComboBoxModel(new String[]{"Pasywna","Aktywna"}));
+        cbTriger.setModel(new DefaultComboBoxModel(Commons.trigerList.toArray()));
+        cbType.setModel(new DefaultComboBoxModel(Commons.actionTypeList.toArray()));
     }
 
     public void setControlState(boolean state)

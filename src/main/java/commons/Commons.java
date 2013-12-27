@@ -17,6 +17,9 @@ public class Commons {
     public final static List<TypeEntity> typeList=new ArrayList<TypeEntity>();
     public final static List<ActionEntity> actionList=new ArrayList<ActionEntity>();
     public final static List<UserEntity> userList=new ArrayList<UserEntity>();
+    public final static List<String> roleList=new ArrayList<String>();
+    public final static List<String> trigerList=new ArrayList<String>();
+    public final static List<String> actionTypeList=new ArrayList<String>();
 
     public static void updateDictionary()
     {
@@ -25,6 +28,9 @@ public class Commons {
         typeList.clear();
         actionList.clear();
         userList.clear();
+        roleList.clear();
+        trigerList.clear();
+        actionTypeList.clear();
 
         List list=HibernateFunctions.getHibernateList(TypeEntity.class,"name");
         for( Object item : list) typeList.add((TypeEntity) item);
@@ -40,6 +46,18 @@ public class Commons {
 
         list=HibernateFunctions.getHibernateList(UserEntity.class,"nick");
         for( Object item : list) userList.add((UserEntity) item);
+
+        roleList.add("");
+        roleList.add("admin");
+        roleList.add("user");
+
+        trigerList.add("");
+        trigerList.add("Akcja");
+        trigerList.add("Wymuszony");
+
+        actionTypeList.add("");
+        actionTypeList.add("Pasywna");
+        actionTypeList.add("Aktywna");
 
     }
 

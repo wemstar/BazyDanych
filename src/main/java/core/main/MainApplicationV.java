@@ -5,9 +5,12 @@ import details.action.ActionDetailsC;
 import details.card.CardDetailsC;
 import commons.Commons;
 import details.deck.DeckDetailsC;
+import details.user.UserDetailsC;
 import entity.CardEntity;
+import search.action.SearchActionC;
 import search.card.SearchCardC;
 import search.deck.SearchDeckC;
+import search.user.SearchUserC;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -22,6 +25,9 @@ public class MainApplicationV extends JDialog {
     private JTabbedPane inputPanel;
     private JButton bSearchDeck;
     private JButton bNewAction;
+    private JButton wyszukajAkcjeButton;
+    private JButton szukajUzytkownikaButton;
+    private JButton nowyUżytkownikButton;
     private MainApplicationC controller;
 
     public MainApplicationV()
@@ -36,6 +42,28 @@ public class MainApplicationV extends JDialog {
                 newAction();
             }
         });
+        nowyUżytkownikButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                newUser();
+            }
+        });
+        wyszukajAkcjeButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                searchAction();
+            }
+        });
+    }
+
+    private void searchAction() {
+        SearchActionC cont= (SearchActionC) Commons.ctx.getBean("SearchAction");
+        addTab(cont.getView().getMainPanel(),"Szukaj Akcje");
+    }
+
+    private void newUser() {
+        UserDetailsC cont= (UserDetailsC) Commons.ctx.getBean("NewUser");
+        addTab(cont.getView().getMainPanel(),"Nowy Użytkownik");
     }
 
     private void newAction() {

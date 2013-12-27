@@ -34,6 +34,7 @@ public class CardDetailsV {
     private JPanel imagePanel;
     private JButton edytujButton;
     private JButton zapiszButton;
+    private JButton bDelete;
     private CardDetailsM model;
     private CardDetailsC controller;
 

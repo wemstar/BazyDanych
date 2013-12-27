@@ -32,6 +32,7 @@ public class DeckDetailsV {
     private JButton edytujButton;
     private JButton zapiszButton;
     private JButton statystykaButton;
+    private JButton deleteButton;
     private SearchCardV searchControl;
 
     public void addToSearchPanel(JPanel component)

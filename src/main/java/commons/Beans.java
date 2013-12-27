@@ -11,17 +11,27 @@ import details.action.ActionDetailsV;
 import details.deck.DeckDetailsC;
 import details.deck.DeckDetailsM;
 import details.deck.DeckDetailsV;
+import details.user.UserDetailsC;
+import details.user.UserDetailsM;
+import details.user.UserDetailsV;
 import entity.ActionEntity;
 import entity.DeckEntity;
+import entity.UserEntity;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
+import search.action.SearchActionC;
+import search.action.SearchActionM;
+import search.action.SearchActionV;
 import search.card.SearchCardC;
 import search.card.SearchCardM;
 import search.card.SearchCardV;
 import search.deck.SearchDeckC;
 import search.deck.SearchDeckM;
 import search.deck.SearchDeckV;
+import search.user.SearchUserC;
+import search.user.SearchUserM;
+import search.user.SearchUserV;
 import statistic.deck.DeckStatisticC;
 import statistic.deck.DeckStatisticM;
 import statistic.deck.DeckStatisticV;
@@ -162,6 +172,63 @@ public class Beans {
         ActionDetailsC controller =ActionDetails();
         ActionEntity entity=new ActionEntity();
         controller.getView().getModel().entity=entity;
+        return controller;
+    }
+
+    @Bean
+    @Scope("prototype")
+    UserDetailsC UserDetails()
+    {
+        UserDetailsC controller=new UserDetailsC();
+        UserDetailsV view=new UserDetailsV();
+        controller.setView(view);
+        view.setController(controller);
+        view.setModel(new UserDetailsM());
+        view.initializeComponent();
+        return controller;
+    }
+
+    @Bean
+    @Scope("prototype")
+    UserDetailsC NewUser()
+    {
+        UserDetailsC controller=UserDetails();
+        UserEntity entity=new UserEntity();
+        controller.getView().getModel().entity=entity;
+        return controller;
+    }
+
+    @Bean
+    @Scope("prototype")
+    SearchUserC SearchUser()
+    {
+        SearchUserC controller=new SearchUserC();
+        SearchUserV view=new SearchUserV();
+        view.initializeComponents();
+        controller.setView(view);
+        view.setController(controller);
+        SearchUserM model=new SearchUserM();
+        model.entity=new UserEntity();
+
+        view.setModel(model);
+
+        return controller;
+    }
+
+    @Bean
+    @Scope("prototype")
+    SearchActionC SearchAction()
+    {
+        SearchActionC controller= new SearchActionC();
+        SearchActionV view= new SearchActionV();
+        view.initializeComponents();
+        controller.setView(view);
+        view.setController(controller);
+        SearchActionM model= new SearchActionM();
+        model.entity=new ActionEntity();
+
+        view.setModel(model);
+
         return controller;
     }
 }
