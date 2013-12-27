@@ -20,6 +20,7 @@ public class Commons {
     public final static List<String> roleList=new ArrayList<String>();
     public final static List<String> trigerList=new ArrayList<String>();
     public final static List<String> actionTypeList=new ArrayList<String>();
+    public final static List<DeckEntity> deckList =new ArrayList<DeckEntity>();
 
     public static void updateDictionary()
     {
@@ -31,6 +32,7 @@ public class Commons {
         roleList.clear();
         trigerList.clear();
         actionTypeList.clear();
+        deckList.clear();;
 
         List list=HibernateFunctions.getHibernateList(TypeEntity.class,"name");
         for( Object item : list) typeList.add((TypeEntity) item);
@@ -46,6 +48,10 @@ public class Commons {
 
         list=HibernateFunctions.getHibernateList(UserEntity.class,"nick");
         for( Object item : list) userList.add((UserEntity) item);
+
+        list=HibernateFunctions.getHibernateList(DeckEntity.class,"name");
+        for( Object item : list) deckList.add((DeckEntity) item);
+
 
         roleList.add("");
         roleList.add("admin");

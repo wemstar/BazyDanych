@@ -14,12 +14,12 @@ public class UserListTableModel extends AbstractTableModel {
 
     List<UserEntity> list= new ArrayList<UserEntity>();
 
-    public void setCardList(List<UserEntity> list)
+    public void setUserList(List<UserEntity> list)
     {
         this.list=list;
     }
 
-    public List<UserEntity> getCardList()
+    public List<UserEntity> getUserList()
     {
         return list;
     }

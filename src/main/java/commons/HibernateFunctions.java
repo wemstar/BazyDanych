@@ -13,6 +13,7 @@ import org.hibernate.service.ServiceRegistryBuilder;
 import search.action.SearchActionM;
 import search.card.SearchCardM;
 import search.deck.SearchDeckM;
+import search.user.SearchUserM;
 
 
 import java.util.ArrayList;
@@ -79,7 +80,9 @@ public class HibernateFunctions {
     public static List getHibernateList(Class classEntity,String order)
     {
         Session session=sessionFactory.openSession();
-        List lista=session.createCriteria(classEntity).addOrder(Order.asc(order)).list();
+        Criteria criteria =session.createCriteria(classEntity);
+        criteria.setResultTransformer(Criteria.DISTINCT_ROOT_ENTITY);
+        List lista=criteria.addOrder(Order.asc(order)).list();
         session.flush();
         session.close();
         return lista;
@@ -93,7 +96,7 @@ public class HibernateFunctions {
 
         session.saveOrUpdate(entity);
         transaction.commit();
-        session.flush();
+
         session.close();
     }
 
@@ -130,10 +133,18 @@ public class HibernateFunctions {
     public static void saveDeck(DeckEntity entity)
     {
         Session session=sessionFactory.openSession();
-        Transaction transatcio= session.beginTransaction();
-        session.saveOrUpdate(entity);
-        transatcio.commit();
-        session.close();
+        try
+        {
+
+            Transaction transatcio= session.beginTransaction();
+            session.saveOrUpdate(entity);
+            transatcio.commit();
+        }
+        finally
+        {
+            session.close();
+        }
+
     }
 
     public static void saveAction(ActionEntity entity) {
@@ -181,5 +192,23 @@ public class HibernateFunctions {
         session.delete(entity);
         transaction.commit();
         session.close();
+    }
+
+    public static void searchUser(SearchUserM model) {
+
+        Session session= sessionFactory.openSession();
+        Criteria criteria=session.createCriteria(UserEntity.class);
+
+        if(!(model.entity.getNick()==null || model.entity.getNick().isEmpty()))criteria.add(Restrictions.like("nick",model.entity.getNick()));
+        if(!(model.entity.getRole()==null || model.entity.getRole().isEmpty()))criteria.add(Restrictions.eq("role", model.entity.getRole()));
+
+
+        List list= criteria.list();
+        List<UserEntity> usersList= new ArrayList<UserEntity>();
+        for(Object item: list ){ usersList.add((UserEntity) item); }
+        model.usersList=usersList;
+        session.flush();
+        session.close();
+
     }
 }

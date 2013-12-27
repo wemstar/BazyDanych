@@ -1,5 +1,8 @@
 package entity;
 
+import org.hibernate.annotations.LazyCollection;
+import org.hibernate.annotations.LazyCollectionOption;
+
 import javax.persistence.*;
 import java.util.Collection;
 
@@ -70,7 +73,8 @@ public class UserEntity {
 
     private Collection<DeckEntity> decks;
 
-    @OneToMany(cascade = CascadeType.ALL, mappedBy = "user")
+    @OneToMany(cascade = CascadeType.REFRESH, mappedBy = "user")
+    @LazyCollection(LazyCollectionOption.FALSE)
     public Collection<DeckEntity> getDecks() {
         return decks;
     }

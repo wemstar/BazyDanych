@@ -54,6 +54,17 @@ public class MainApplicationV extends JDialog {
                 searchAction();
             }
         });
+        szukajUzytkownikaButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                searchUser();
+            }
+        });
+    }
+
+    private void searchUser() {
+        SearchUserC cont= (SearchUserC) Commons.ctx.getBean("SearchUser");
+        addTab(cont.getView().getMainPanel(),"Szukaj Uzytkownika");
     }
 
     private void searchAction() {
