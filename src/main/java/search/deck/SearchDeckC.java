@@ -6,6 +6,8 @@ import core.main.MainApplicationV;
 import details.deck.DeckDetailsC;
 import entity.DeckEntity;
 
+import javax.swing.*;
+
 /**
  * Created by wemstar on 20.12.13.
  */
@@ -52,9 +54,10 @@ public class SearchDeckC {
 
 
 
-        DeckDetailsC controler= (DeckDetailsC) Commons.ctx.getBean("DeckDetails");
-        controler.castToModel(entity);
-        master.addTab(controler.getView().getMainPanel(),"Szczegóły Tali");
+            DeckDetailsC controler= (DeckDetailsC) Commons.ctx.getBean("DeckDetails");
+            controler.castToModel(entity);
+            master.addTab(controler.getView().getMainPanel(),"Szczegóły Tali");
+
 
 
     }

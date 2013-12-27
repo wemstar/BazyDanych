@@ -21,6 +21,7 @@ public class Commons {
     public final static List<String> trigerList=new ArrayList<String>();
     public final static List<String> actionTypeList=new ArrayList<String>();
     public final static List<DeckEntity> deckList =new ArrayList<DeckEntity>();
+    public static UserEntity currentUser;
 
     public static void updateDictionary()
     {

@@ -4,6 +4,8 @@ import commons.Commons;
 import commons.HibernateFunctions;
 import core.forms.LoginDialog;
 
+import javax.swing.*;
+
 /**
  * Created by wemstar on 26.12.13.
  */
@@ -11,8 +13,10 @@ public class MainApplicationC {
 
     public static void main(String[] args) {
 
+
+        HibernateFunctions.createFactory();
         login();
-        //HibernateFunctions.createFactory();
+
         Commons.updateDictionary();
         MainApplicationC controller = (MainApplicationC) Commons.ctx.getBean("MainApplication");
         MainApplicationV  view=controller.getView();
@@ -30,8 +34,13 @@ public class MainApplicationC {
         view.setVisible(true);
         if(view.isResult())
         {
+           Commons.currentUser=HibernateFunctions.validateLogin(view.getTfLogin(),new String(view.getPfPassword()));
+           if(Commons.currentUser==null)
+           {
+               JOptionPane.showMessageDialog(null, "Złe hasło lub login", "Wrong ", JOptionPane.ERROR_MESSAGE);
+               System.exit(0);
+           }
 
-            HibernateFunctions.createFactory(view.getTfLogin(),new String(view.getPfPassword()));
         }
 
     }

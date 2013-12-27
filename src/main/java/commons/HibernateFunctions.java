@@ -1,5 +1,6 @@
 package commons;
 
+import commons.security.Hashing;
 import entity.*;
 import org.hibernate.Criteria;
 import org.hibernate.Session;
@@ -161,6 +162,7 @@ public class HibernateFunctions {
     {
         Session session=sessionFactory.openSession();
         Transaction transatcio= session.beginTransaction();
+        entity.setPassword(Hashing.hashPassword(entity.getPassword()));
         session.saveOrUpdate(entity);
         transatcio.commit();
         session.close();
@@ -209,6 +211,18 @@ public class HibernateFunctions {
         model.usersList=usersList;
         session.flush();
         session.close();
+
+    }
+
+    public static UserEntity validateLogin(String login,String password) {
+
+        Session session=sessionFactory.openSession();
+        UserEntity currentUser=null;
+        UserEntity user= (UserEntity) session.get(UserEntity.class,login);
+        password=Hashing.hashPassword(password);
+        if(Hashing.comparePassword(password,user.getPassword()))currentUser=user;
+        session.close();
+        return currentUser;
 
     }
 }

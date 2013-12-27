@@ -27,15 +27,30 @@ public class UserDetailsV {
         bEditUser.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                setControlState(true);
+
+                if(Commons.currentUser.getRole().equals("admin"))
+                {
+                    setControlState(true);
+                }
+                else
+                {
+                    JOptionPane.showMessageDialog(null, "Nie masz uprawneń do modyfikacji użytkownika", "Błąd uprawnień", JOptionPane.INFORMATION_MESSAGE);
+                }
             }
         });
         bSaveUser.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-                    controller.saveUser();
-                    setControlState(false);
+                    if(Commons.currentUser.getRole().equals("admin"))
+                    {
+                        controller.saveUser();
+                        setControlState(false);
+                    }
+                    else
+                    {
+                        JOptionPane.showMessageDialog(null, "Nie masz uprawneń do modyfikacji użytkownika", "Błąd uprawnień", JOptionPane.INFORMATION_MESSAGE);
+                    }
                 } catch (Exception e1) {
                     JOptionPane.showMessageDialog(mainPanel,"Hasła muszą pasowac","Bład hasło",JOptionPane.ERROR_MESSAGE);
                 }

@@ -50,7 +50,17 @@ public class DeckDetailsV {
         edytujButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                setControlState(true);
+
+                if(model.entity.getUser().equals(Commons.currentUser))
+                {
+                    setControlState(true);
+                }
+                else
+                {
+                    JOptionPane.showMessageDialog(null, "Nie masz uprawneń do modyfikacji tali", "Błąd uprawnień", JOptionPane.INFORMATION_MESSAGE);
+                }
+
+
             }
         });
         statystykaButton.addActionListener(new ActionListener() {

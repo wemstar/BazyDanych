@@ -185,6 +185,7 @@ public class Beans {
         view.setController(controller);
         view.setModel(new UserDetailsM());
         view.initializeComponent();
+        view.setControlState(false);
         return controller;
     }
 
@@ -194,6 +195,7 @@ public class Beans {
     {
         UserDetailsC controller=UserDetails();
         UserEntity entity=new UserEntity();
+        controller.getView().setControlState(true);
         controller.getView().getModel().entity=entity;
         return controller;
     }
