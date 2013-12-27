@@ -1,6 +1,7 @@
 package core.main;
 
 import commons.ClickCardAction;
+import details.action.ActionDetailsC;
 import details.card.CardDetailsC;
 import commons.Commons;
 import details.deck.DeckDetailsC;
@@ -20,6 +21,7 @@ public class MainApplicationV extends JDialog {
     private JPanel mainPanel;
     private JTabbedPane inputPanel;
     private JButton bSearchDeck;
+    private JButton bNewAction;
     private MainApplicationC controller;
 
     public MainApplicationV()
@@ -28,6 +30,17 @@ public class MainApplicationV extends JDialog {
         setModal(true);
 
 
+        bNewAction.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                newAction();
+            }
+        });
+    }
+
+    private void newAction() {
+        ActionDetailsC cont= (ActionDetailsC) Commons.ctx.getBean("NewAction");
+        addTab(cont.getView().getMainPanel(),"Nowa Akcja");
     }
 
     public void initializeComponents()
@@ -88,7 +101,7 @@ public class MainApplicationV extends JDialog {
                 addTab(controler.getView().getMainPanel(), "Szczegóły karty");
             }
         });
-        addTab(searchCardC.getView().getMainPanel(), "Szukaj");
+        addTab(searchCardC.getView().getMainPanel(), "Szukaj Karty");
     }
 
     public void addTab(JPanel panel, String title) {

@@ -18,6 +18,7 @@ public class MainApplicationC {
         MainApplicationV  view=controller.getView();
         view.pack();
         view.setVisible(true);
+        HibernateFunctions.sessionFactory.close();
         System.exit(0);
     }
 

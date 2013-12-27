@@ -11,6 +11,7 @@ import statistic.deck.DeckStatisticC;
 
 import javax.swing.*;
 import java.util.ArrayList;
+import java.util.Collection;
 
 /**
  * Created by wemstar on 23.12.13.
@@ -37,7 +38,20 @@ public class DeckDetailsC {
             @Override
             public void cardAction(CardEntity entity) {
                 DeckDetailsM model= view.getModel();
-                model.entity.getCard_list().add(entity);
+                DeckEntity enti=model.entity;
+                if(entity.getRace().getFraction().equals("Neutralni")||!enti.getBasic_race().getFraction().equals(entity.getRace().getFraction())) return;
+                if(enti.getCard_list().contains(entity))
+                {
+                    for(CardEntity card: new ArrayList<CardEntity>(enti.getCard_list()))
+                    {
+                        if(card.equals(entity))
+                        {
+                           enti.getCard_list().add(card);
+                           break;
+                        }
+                    }
+                }
+                else model.entity.getCard_list().add(entity);
                 updateView();
             }
         });

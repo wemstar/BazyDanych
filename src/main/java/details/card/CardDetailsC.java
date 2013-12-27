@@ -104,13 +104,16 @@ public class CardDetailsC {
         entity.setActions(model.action);
 
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
-        try {
-            ImageIO.write( model.img, "jpg", baos );
-            baos.flush();
-            entity.setImage(baos.toByteArray());
-            baos.close();
-        } catch (IOException e) {
-            e.printStackTrace();
+        if(model.img!=null)
+        {
+            try {
+                ImageIO.write( model.img, "jpg", baos );
+                baos.flush();
+                entity.setImage(baos.toByteArray());
+                baos.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
 
         return entity;

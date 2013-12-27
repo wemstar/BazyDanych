@@ -2,26 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75334a99-bbd6-431e-8b96-78b92eb666c5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/core/forms/CloseButtonTabbedPane.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/statistic/deck/DeckStatisticC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/statistic/deck/DeckStatisticM.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/statistic/deck/DeckStatisticV.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/statistic/deck/DeckStatisticV.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/details/action/ActionDetailsC.java" afterPath="$PROJECT_DIR$/src/main/java/details/action/ActionDetailsC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/details/action/ActionDetailsM.java" afterPath="$PROJECT_DIR$/src/main/java/details/action/ActionDetailsM.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/details/action/ActionDetailsV.form" afterPath="$PROJECT_DIR$/src/main/java/details/action/ActionDetailsV.form" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/details/action/ActionDetailsV.java" afterPath="$PROJECT_DIR$/src/main/java/details/action/ActionDetailsV.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/commons/Beans.java" afterPath="$PROJECT_DIR$/src/main/java/commons/Beans.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/details/card/CardDetailsC.java" afterPath="$PROJECT_DIR$/src/main/java/details/card/CardDetailsC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/details/card/CardDetailsM.java" afterPath="$PROJECT_DIR$/src/main/java/details/card/CardDetailsM.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/details/card/CardDetailsV.form" afterPath="$PROJECT_DIR$/src/main/java/details/card/CardDetailsV.form" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/details/card/CardDetailsV.java" afterPath="$PROJECT_DIR$/src/main/java/details/card/CardDetailsV.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/commons/Commons.java" afterPath="$PROJECT_DIR$/src/main/java/commons/Commons.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsC.java" afterPath="$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsV.form" afterPath="$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsV.form" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsV.java" afterPath="$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsV.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/statistic/deck/DeckStatisticC.java" afterPath="$PROJECT_DIR$/src/main/java/statistic/deck/DeckStatisticC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/statistic/deck/DeckStatisticM.java" afterPath="$PROJECT_DIR$/src/main/java/statistic/deck/DeckStatisticM.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/commons/HibernateFunctions.java" afterPath="$PROJECT_DIR$/src/main/java/commons/HibernateFunctions.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/core/main/MainApplicationC.java" afterPath="$PROJECT_DIR$/src/main/java/core/main/MainApplicationC.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/core/main/MainApplicationV.form" afterPath="$PROJECT_DIR$/src/main/java/core/main/MainApplicationV.form" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/search/deck/SearchDeckV.form" afterPath="$PROJECT_DIR$/src/main/java/search/deck/SearchDeckV.form" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/search/deck/SearchDeckV.java" afterPath="$PROJECT_DIR$/src/main/java/search/deck/SearchDeckV.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sql/basicDeck.sql" afterPath="$PROJECT_DIR$/src/main/resources/sql/basicDeck.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/core/main/MainApplicationV.java" afterPath="$PROJECT_DIR$/src/main/java/core/main/MainApplicationV.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/entity/RaceEntity.java" afterPath="$PROJECT_DIR$/src/main/java/entity/RaceEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BazyDanych.iws" />
@@ -80,8 +77,23 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/src/main/java/details/card/CardDetailsV.java" line="220" class="details.card.CardDetailsV" package="details.card">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/details/action/ActionDetailsC.java" line="44" class="details.action.ActionDetailsC" package="details.action">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -106,93 +118,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainApplicationC.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/core/main/MainApplicationC.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="78" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeckStatisticC.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="DeckStatisticC.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/statistic/deck/DeckStatisticC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="62" selection-start="3088" selection-end="3088" vertical-scroll-proportion="0.0" vertical-offset="683" max-vertical-offset="1380">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2140#2158#0" expanded="true" />
-                <element signature="e#2219#2237#0" expanded="true" />
-                <element signature="e#3216#3217#0" expanded="true" />
-                <element signature="e#3248#3249#0" expanded="true" />
-                <element signature="e#3287#3288#0" expanded="true" />
-                <element signature="e#3314#3315#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CardDetailsV.form" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/details/card/CardDetailsV.form">
-          <provider selected="true" editor-type-id="ui-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CardDetailsV.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/details/card/CardDetailsV.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="71" selection-start="1736" selection-end="1736" vertical-scroll-proportion="0.0" vertical-offset="251" max-vertical-offset="3030">
-              <folding>
-                <element signature="e#1589#1816#0" expanded="true" />
-                <element signature="e#1805#1806#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CardDetailsC.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/details/card/CardDetailsC.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="133" column="8" selection-start="4030" selection-end="4030" vertical-scroll-proportion="0.0" vertical-offset="1631" max-vertical-offset="2115">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImageIcon.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///usr/lib/jvm/java-7-oracle/src.zip!/javax/swing/ImageIcon.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="227" column="0" selection-start="7108" selection-end="7108" vertical-scroll-proportion="0.0" vertical-offset="2606" max-vertical-offset="9660">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CardDetailsM.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/details/card/CardDetailsM.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="28" selection-start="616" selection-end="616" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchCardV.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/search/card/SearchCardV.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="19" selection-start="1061" selection-end="1519" vertical-scroll-proportion="0.0" vertical-offset="333" max-vertical-offset="1650">
-              <folding>
-                <element signature="e#1061#1529#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchDeckV.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/search/deck/SearchDeckV.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="75" selection-start="2604" selection-end="2604" vertical-scroll-proportion="0.64285713" vertical-offset="738" max-vertical-offset="1245">
+            <state line="92" column="117" selection-start="4414" selection-end="4414" vertical-scroll-proportion="0.9830508" vertical-offset="691" max-vertical-offset="1410">
               <folding />
             </state>
           </provider>
@@ -358,7 +287,6 @@
         <option value="$PROJECT_DIR$/src/main/java/CardDetails/CardDetailsC.java" />
         <option value="$PROJECT_DIR$/src/main/java/CardDetails/CardDetailsV.java" />
         <option value="$PROJECT_DIR$/src/main/java/entity/UserEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/entity/CardEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/search/deck/SearchDeckM.java" />
         <option value="$PROJECT_DIR$/src/main/java/search/card/SearchC.java" />
         <option value="$PROJECT_DIR$/src/main/java/search/deck/SearchDeckC.java" />
@@ -367,11 +295,8 @@
         <option value="$PROJECT_DIR$/src/main/java/commons/models/DeckListTableModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/commons/GenerateTables.java" />
         <option value="$PROJECT_DIR$/src/main/java/commons/SearchCardAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/details/action/ActionDetailsC.java" />
         <option value="$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsM.java" />
-        <option value="$PROJECT_DIR$/src/main/java/commons/Commons.java" />
         <option value="$PROJECT_DIR$/src/main/java/search/card/SearchCardV.java" />
-        <option value="$PROJECT_DIR$/src/main/java/entity/DeckEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/core/MainApplication.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/core/forms/LoginDialog.form" />
@@ -379,24 +304,34 @@
         <option value="$PROJECT_DIR$/src/main/java/statistic/deck/DeckStatisticM.java" />
         <option value="$PROJECT_DIR$/src/main/java/statistic/deck/DeckStatisticV.java" />
         <option value="$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsV.java" />
-        <option value="$PROJECT_DIR$/src/main/java/commons/Beans.java" />
         <option value="$PROJECT_DIR$/src/main/java/statistic/deck/DeckStatisticV.form" />
-        <option value="$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsC.java" />
         <option value="$PROJECT_DIR$/src/main/java/core/forms/MyTabPannel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/core/main/MainApplicationV.java" />
-        <option value="$PROJECT_DIR$/src/main/java/core/main/MainApplicationV.form" />
         <option value="$PROJECT_DIR$/src/main/java/search/deck/SearchDeckV.form" />
         <option value="$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsV.form" />
-        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/sql/basicDeck.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/commons/HibernateFunctions.java" />
-        <option value="$PROJECT_DIR$/src/main/java/core/main/MainApplicationC.java" />
-        <option value="$PROJECT_DIR$/src/main/java/statistic/deck/DeckStatisticC.java" />
         <option value="$PROJECT_DIR$/src/main/java/details/card/CardDetailsM.java" />
         <option value="$PROJECT_DIR$/src/main/java/details/card/CardDetailsV.form" />
-        <option value="$PROJECT_DIR$/src/main/java/details/card/CardDetailsC.java" />
         <option value="$PROJECT_DIR$/src/main/java/details/card/CardDetailsV.java" />
         <option value="$PROJECT_DIR$/src/main/java/search/deck/SearchDeckV.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entity/DeckEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/details/action/ActionDetailsM.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/main/MainApplicationV.form" />
+        <option value="$PROJECT_DIR$/src/main/java/details/action/ActionDetailsV.form" />
+        <option value="$PROJECT_DIR$/src/main/java/details/action/ActionDetailsV.java" />
+        <option value="$PROJECT_DIR$/src/main/java/details/action/ActionDetailsC.java" />
+        <option value="dbtable:/79fe87aa/91a6ec93-fe95-4dc1-a250-f31513d02b16/i1macura.project.action" />
+        <option value="$PROJECT_DIR$/src/main/java/commons/Beans.java" />
+        <option value="$PROJECT_DIR$/src/main/java/commons/Commons.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entity/CardEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/details/card/CardDetailsC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/main/MainApplicationC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/commons/HibernateFunctions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/main/MainApplicationV.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/sql/basicData.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsC.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/sql/basicCard.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/statistic/deck/DeckStatisticC.java" />
       </list>
     </option>
   </component>
@@ -521,7 +456,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sql" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -540,78 +479,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="search" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deck" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SearchDeckV" />
-              <option name="myItemType" value="com.intellij.uiDesigner.projectView.FormNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BazyDanych" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BazyDanych" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="search" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deck" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BazyDanych" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BazyDanych" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="search" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -691,12 +558,6 @@
       <ConfigurationWrapper RunnerId="ExternalSystemTaskRunner" />
       <method />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
       <module name="" />
       <setting name="vmparams" value="" />
@@ -705,6 +566,12 @@
       <setting name="passParentEnv" value="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -749,17 +616,23 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
       <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -790,23 +663,17 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
       <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -845,6 +712,12 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -862,12 +735,6 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <configuration default="false" name="Glowna" type="Application" factoryName="Application">
@@ -961,7 +828,8 @@
       <workItem from="1387877498062" duration="6925000" />
       <workItem from="1388071679939" duration="6255000" />
       <workItem from="1388078032568" duration="119000" />
-      <workItem from="1388084871361" duration="18200000" />
+      <workItem from="1388084871361" duration="18243000" />
+      <workItem from="1388138051233" duration="14863000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;problem z data source">
       <created>1387491090656</created>
@@ -971,47 +839,51 @@
       <created>1387568534915</created>
       <updated>1387568534915</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fajrant zrobiono talie edycje obrazki i częśc statystyk&#10;">
+      <created>1388106212128</created>
+      <updated>1388106212128</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50765000" />
+    <option name="totallyTimeSpent" value="65671000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="0" width="1606" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32862645" sideWeight="0.49609375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.49934125" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24952501" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938075" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.51728725" sideWeight="0.5019608" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33055198" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967907" sideWeight="0.49803922" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32674572" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967907" sideWeight="0.49607843" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3254282" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967907" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2355584" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23491655" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3992095" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3992095" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967907" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1028,7 +900,8 @@
     </option>
     <MESSAGE value="&#10;problem z data source" />
     <MESSAGE value="Dodano szukajke do kart&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodano szukajke do kart&#10;" />
+    <MESSAGE value="fajrant zrobiono talie edycje obrazki i częśc statystyk&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="fajrant zrobiono talie edycje obrazki i częśc statystyk&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1038,89 +911,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/CardEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="175" column="41" selection-start="4622" selection-end="4622" vertical-scroll-proportion="0.0" vertical-offset="2625" max-vertical-offset="2910" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/DeckEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1275" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/ActionEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1305">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="109" selection-start="591" selection-end="591" vertical-scroll-proportion="-10.8" vertical-offset="0" max-vertical-offset="1440" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="734" />
-      </provider>
-    </entry>
-    <entry file="uml://Persistence/JavaeeElement:/79fe87aa/hibernate.cfg.xml/BazyDanych/hibernate/Hibernate/PersistenceModel">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>Persistence</ID>
-          <OriginalElement>JavaeeElement:/79fe87aa/hibernate.cfg.xml/BazyDanych/hibernate/Hibernate/PersistenceModel</OriginalElement>
-          <nodes>
-            <node x="162.0" y="0.0">ActionEntity#file:///home/wemstar/BazyDanych/src/main/java/entity/ActionEntity.java</node>
-            <node x="389.875" y="510.0">UserEntity#file:///home/wemstar/BazyDanych/src/main/java/entity/UserEntity.java</node>
-            <node x="218.0" y="163.0">CardEntity#file:///home/wemstar/BazyDanych/src/main/java/entity/CardEntity.java</node>
-            <node x="384.0" y="31.5">TypeEntity#file:///home/wemstar/BazyDanych/src/main/java/entity/TypeEntity.java</node>
-            <node x="546.0" y="31.5">RaceEntity#file:///home/wemstar/BazyDanych/src/main/java/entity/RaceEntity.java</node>
-            <node x="404.375" y="410.0">DeckEntity#file:///home/wemstar/BazyDanych/src/main/java/entity/DeckEntity.java</node>
-            <node x="0.0" y="31.5">EditionEntity#file:///home/wemstar/BazyDanych/src/main/java/entity/EditionEntity.java</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="DeckEntity#file:///home/wemstar/BazyDanych/src/main/java/entity/DeckEntity.java" target="CardEntity#file:///home/wemstar/BazyDanych/src/main/java/entity/CardEntity.java">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="CardEntity#file:///home/wemstar/BazyDanych/src/main/java/entity/CardEntity.java" target="RaceEntity#file:///home/wemstar/BazyDanych/src/main/java/entity/RaceEntity.java">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="CardEntity#file:///home/wemstar/BazyDanych/src/main/java/entity/CardEntity.java" target="EditionEntity#file:///home/wemstar/BazyDanych/src/main/java/entity/EditionEntity.java">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="CardEntity#file:///home/wemstar/BazyDanych/src/main/java/entity/CardEntity.java" target="ActionEntity#file:///home/wemstar/BazyDanych/src/main/java/entity/ActionEntity.java">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="CardEntity#file:///home/wemstar/BazyDanych/src/main/java/entity/CardEntity.java" target="TypeEntity#file:///home/wemstar/BazyDanych/src/main/java/entity/TypeEntity.java">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="DeckEntity#file:///home/wemstar/BazyDanych/src/main/java/entity/DeckEntity.java" target="UserEntity#file:///home/wemstar/BazyDanych/src/main/java/entity/UserEntity.java">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="DeckEntity#file:///home/wemstar/BazyDanych/src/main/java/entity/DeckEntity.java" target="RaceEntity#file:///home/wemstar/BazyDanych/src/main/java/entity/RaceEntity.java">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.6623794212218649" x="212.0" y="452.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Superclasses</Category>
-            <Category>Embeddables</Category>
-            <Category>Properties</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://DATABASE/0aa1df2c-75d2-4554-aa21-5c7ca9412f5d.schema:i1macura.project">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1128,22 +918,22 @@
           <OriginalElement>0aa1df2c-75d2-4554-aa21-5c7ca9412f5d.schema:i1macura.project</OriginalElement>
           <nodes>
             <node x="199.33333333333337" y="454.0">0aa1df2c-75d2-4554-aa21-5c7ca9412f5d.table:i1macura.project.card_deck</node>
-            <node x="227.0" y="21.5">0aa1df2c-75d2-4554-aa21-5c7ca9412f5d.table:i1macura.project.race</node>
             <node x="0.0" y="0.0">0aa1df2c-75d2-4554-aa21-5c7ca9412f5d.table:i1macura.project.user</node>
-            <node x="631.25" y="454.0">0aa1df2c-75d2-4554-aa21-5c7ca9412f5d.table:i1macura.project.card_action</node>
+            <node x="227.0" y="21.5">0aa1df2c-75d2-4554-aa21-5c7ca9412f5d.table:i1macura.project.race</node>
             <node x="78.5" y="227.0">0aa1df2c-75d2-4554-aa21-5c7ca9412f5d.table:i1macura.project.deck</node>
+            <node x="631.25" y="454.0">0aa1df2c-75d2-4554-aa21-5c7ca9412f5d.table:i1macura.project.card_action</node>
             <node x="435.5" y="21.5">0aa1df2c-75d2-4554-aa21-5c7ca9412f5d.table:i1macura.project.type</node>
             <node x="342.0" y="143.0">0aa1df2c-75d2-4554-aa21-5c7ca9412f5d.table:i1macura.project.card</node>
-            <node x="740.0" y="216.5">0aa1df2c-75d2-4554-aa21-5c7ca9412f5d.table:i1macura.project.action</node>
             <node x="633.5" y="21.5">0aa1df2c-75d2-4554-aa21-5c7ca9412f5d.table:i1macura.project.edition</node>
+            <node x="740.0" y="216.5">0aa1df2c-75d2-4554-aa21-5c7ca9412f5d.table:i1macura.project.action</node>
           </nodes>
           <notes />
           <edges>
-            <edge source="0aa1df2c-75d2-4554-aa21-5c7ca9412f5d.table:i1macura.project.deck" target="0aa1df2c-75d2-4554-aa21-5c7ca9412f5d.table:i1macura.project.race">
+            <edge source="0aa1df2c-75d2-4554-aa21-5c7ca9412f5d.table:i1macura.project.deck" target="0aa1df2c-75d2-4554-aa21-5c7ca9412f5d.table:i1macura.project.user">
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
-            <edge source="0aa1df2c-75d2-4554-aa21-5c7ca9412f5d.table:i1macura.project.deck" target="0aa1df2c-75d2-4554-aa21-5c7ca9412f5d.table:i1macura.project.user">
+            <edge source="0aa1df2c-75d2-4554-aa21-5c7ca9412f5d.table:i1macura.project.deck" target="0aa1df2c-75d2-4554-aa21-5c7ca9412f5d.table:i1macura.project.race">
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
@@ -1151,11 +941,11 @@
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
-            <edge source="0aa1df2c-75d2-4554-aa21-5c7ca9412f5d.table:i1macura.project.card_action" target="0aa1df2c-75d2-4554-aa21-5c7ca9412f5d.table:i1macura.project.action">
+            <edge source="0aa1df2c-75d2-4554-aa21-5c7ca9412f5d.table:i1macura.project.card_deck" target="0aa1df2c-75d2-4554-aa21-5c7ca9412f5d.table:i1macura.project.deck">
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
-            <edge source="0aa1df2c-75d2-4554-aa21-5c7ca9412f5d.table:i1macura.project.card_deck" target="0aa1df2c-75d2-4554-aa21-5c7ca9412f5d.table:i1macura.project.deck">
+            <edge source="0aa1df2c-75d2-4554-aa21-5c7ca9412f5d.table:i1macura.project.card_action" target="0aa1df2c-75d2-4554-aa21-5c7ca9412f5d.table:i1macura.project.action">
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
@@ -1167,11 +957,11 @@
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
-            <edge source="0aa1df2c-75d2-4554-aa21-5c7ca9412f5d.table:i1macura.project.card_deck" target="0aa1df2c-75d2-4554-aa21-5c7ca9412f5d.table:i1macura.project.card">
+            <edge source="0aa1df2c-75d2-4554-aa21-5c7ca9412f5d.table:i1macura.project.card" target="0aa1df2c-75d2-4554-aa21-5c7ca9412f5d.table:i1macura.project.race">
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
-            <edge source="0aa1df2c-75d2-4554-aa21-5c7ca9412f5d.table:i1macura.project.card" target="0aa1df2c-75d2-4554-aa21-5c7ca9412f5d.table:i1macura.project.race">
+            <edge source="0aa1df2c-75d2-4554-aa21-5c7ca9412f5d.table:i1macura.project.card_deck" target="0aa1df2c-75d2-4554-aa21-5c7ca9412f5d.table:i1macura.project.card">
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
@@ -1188,13 +978,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/ActionEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" vertical-offset="414" max-vertical-offset="1065">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/search/deck/SearchDeckM.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="27" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
@@ -1202,11 +985,6 @@
             <element signature="imports" expanded="false" />
           </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/basicCard.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="196" selection-start="196" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/commons/models/DeckListTableModel.java">
@@ -1237,11 +1015,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/details/action/ActionDetailsC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsM.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270" />
@@ -1261,18 +1034,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/DeckEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="39" selection-start="289" selection-end="289" vertical-scroll-proportion="-0.80985916" vertical-offset="540" max-vertical-offset="1005">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/details/action/ActionDetailsM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="81" selection-end="81" vertical-scroll-proportion="0.1552795" vertical-offset="0" max-vertical-offset="483" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="38" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
@@ -1287,9 +1048,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/core/forms/LoginDialog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="18" selection-start="1516" selection-end="1516" vertical-scroll-proportion="0.0" vertical-offset="348" max-vertical-offset="900">
-          <folding />
-        </state>
+        <state line="55" column="18" selection-start="1516" selection-end="1516" vertical-scroll-proportion="0.0" vertical-offset="348" max-vertical-offset="900" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/statistic/deck/DeckStatisticM.java">
@@ -1341,8 +1100,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="57" column="36" selection-start="1670" selection-end="1670" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="1920">
           <folding>
-            <element signature="e#1532#1701#0" expanded="true" />
-            <element signature="e#1690#1691#0" expanded="true" />
+            <element signature="e#1532#1701#0" expanded="false" />
+            <element signature="e#1690#1691#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1352,56 +1111,16 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/commons/Beans.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="21" selection-start="3260" selection-end="3275" vertical-scroll-proportion="0.0" vertical-offset="1413" max-vertical-offset="1890">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/commons/Commons.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="23" selection-start="727" selection-end="727" vertical-scroll-proportion="0.0" vertical-offset="27" max-vertical-offset="645">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/main/MainApplicationV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="0" selection-start="3103" selection-end="3103" vertical-scroll-proportion="0.0" vertical-offset="708" max-vertical-offset="1170">
-          <folding>
-            <element signature="e#3057#3058#0" expanded="true" />
-            <element signature="e#3101#3102#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/main/MainApplicationV.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/core/forms/CloseButtonTabbedPane.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="25" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="168" max-vertical-offset="1350">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="80" selection-start="2866" selection-end="2866" vertical-scroll-proportion="0.0" vertical-offset="843" max-vertical-offset="1335">
-          <folding />
-        </state>
+        <state line="20" column="25" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="168" max-vertical-offset="1350" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/search/card/SearchCardC.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="29" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="885">
           <folding>
-            <element signature="method#setAction#0;class#SearchCardC#0" expanded="true" />
+            <element signature="method#setAction#0;class#SearchCardC#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1421,37 +1140,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/basicData.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="412" selection-end="537" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/commons/HibernateFunctions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="24" selection-start="952" selection-end="952" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2295">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/details/card/CardDetailsM.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="28" selection-start="616" selection-end="616" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/CardEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="18" selection-start="1352" selection-end="1352" vertical-scroll-proportion="0.0" vertical-offset="521" max-vertical-offset="2145">
           <folding />
         </state>
       </provider>
@@ -1465,38 +1156,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/sql/basicDeck.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="98" selection-start="693" selection-end="693" vertical-scroll-proportion="0.25974026" vertical-offset="0" max-vertical-offset="462">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/main/MainApplicationC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="78" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/statistic/deck/DeckStatisticC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="62" selection-start="3088" selection-end="3088" vertical-scroll-proportion="0.0" vertical-offset="683" max-vertical-offset="1380">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2140#2158#0" expanded="true" />
-            <element signature="e#2219#2237#0" expanded="true" />
-            <element signature="e#3216#3217#0" expanded="true" />
-            <element signature="e#3248#3249#0" expanded="true" />
-            <element signature="e#3287#3288#0" expanded="true" />
-            <element signature="e#3314#3315#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/details/card/CardDetailsC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="133" column="8" selection-start="4030" selection-end="4030" vertical-scroll-proportion="0.0" vertical-offset="1631" max-vertical-offset="2115">
-          <folding />
-        </state>
+        <state line="8" column="98" selection-start="693" selection-end="693" vertical-scroll-proportion="0.25974026" vertical-offset="0" max-vertical-offset="462" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/details/card/CardDetailsV.form">
@@ -1504,28 +1164,215 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/details/card/CardDetailsV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="71" selection-start="1736" selection-end="1736" vertical-scroll-proportion="0.0" vertical-offset="251" max-vertical-offset="3030">
-          <folding>
-            <element signature="e#1589#1816#0" expanded="true" />
-            <element signature="e#1805#1806#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/search/card/SearchCardV.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="50" column="19" selection-start="1061" selection-end="1519" vertical-scroll-proportion="0.0" vertical-offset="169" max-vertical-offset="1650">
-          <folding>
-            <element signature="e#1061#1529#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/search/deck/SearchDeckV.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="75" selection-start="2604" selection-end="2604" vertical-scroll-proportion="0.64285713" vertical-offset="738" max-vertical-offset="1245">
+        <state line="94" column="75" selection-start="2604" selection-end="2604" vertical-scroll-proportion="0.0" vertical-offset="490" max-vertical-offset="1245">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/details/card/CardDetailsV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="71" selection-start="1736" selection-end="1736" vertical-scroll-proportion="0.0" vertical-offset="251" max-vertical-offset="3030">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/details/action/ActionDetailsM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="11" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/main/MainApplicationV.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/79fe87aa/91a6ec93-fe95-4dc1-a250-f31513d02b16/i1macura.project.action">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/commons/Commons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="735">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entity/CardEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="175" column="41" selection-start="4623" selection-end="4623" vertical-scroll-proportion="0.0" vertical-offset="1470" max-vertical-offset="2145">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/details/action/ActionDetailsV.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/details/action/ActionDetailsV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="23" selection-start="783" selection-end="783" vertical-scroll-proportion="0.35382512" vertical-offset="221" max-vertical-offset="1560">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#563#718#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#847#848#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#2304#2305#0" expanded="true" />
+            <element signature="e#2336#2337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/commons/Beans.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="158" column="23" selection-start="4307" selection-end="4307" vertical-scroll-proportion="0.69262296" vertical-offset="1503" max-vertical-offset="2235">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/details/action/ActionDetailsC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="0" selection-start="1099" selection-end="1099" vertical-scroll-proportion="0.0" vertical-offset="380" max-vertical-offset="765">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entity/ActionEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entity/DeckEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="41" selection-start="1229" selection-end="1229" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1005">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/commons/HibernateFunctions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="142" column="28" selection-start="4432" selection-end="4432" vertical-scroll-proportion="0.0" vertical-offset="1607" max-vertical-offset="2070">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/main/MainApplicationC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="50" selection-start="584" selection-end="584" vertical-scroll-proportion="0.0" vertical-offset="92" max-vertical-offset="705">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/main/MainApplicationV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="66" selection-start="3205" selection-end="3205" vertical-scroll-proportion="0.0" vertical-offset="649" max-vertical-offset="1245">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entity/RaceEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/basicCard.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="186" selection-start="2398" selection-end="2398" vertical-scroll-proportion="0.33482143" vertical-offset="0" max-vertical-offset="448">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="154" selection-start="1369" selection-end="1369" vertical-scroll-proportion="0.52678573" vertical-offset="154" max-vertical-offset="1575">
+          <folding>
+            <element signature="e#1014#1903#0" expanded="true" />
+            <element signature="e#1892#1893#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="68" selection-start="313" selection-end="313" vertical-scroll-proportion="0.16149068" vertical-offset="12" max-vertical-offset="495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Persistence/JavaeeElement:/79fe87aa/hibernate.cfg.xml/BazyDanych/hibernate/Hibernate/PersistenceModel">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Persistence</ID>
+          <OriginalElement>JavaeeElement:/79fe87aa/hibernate.cfg.xml/BazyDanych/hibernate/Hibernate/PersistenceModel</OriginalElement>
+          <nodes>
+            <node x="" y="">ActionEntity#file:///home/wemstar/BazyDanych/src/main/java/entity/ActionEntity.java</node>
+            <node x="" y="">CardEntity#file:///home/wemstar/BazyDanych/src/main/java/entity/CardEntity.java</node>
+            <node x="" y="">UserEntity#file:///home/wemstar/BazyDanych/src/main/java/entity/UserEntity.java</node>
+            <node x="" y="">TypeEntity#file:///home/wemstar/BazyDanych/src/main/java/entity/TypeEntity.java</node>
+            <node x="" y="">RaceEntity#file:///home/wemstar/BazyDanych/src/main/java/entity/RaceEntity.java</node>
+            <node x="" y="">EditionEntity#file:///home/wemstar/BazyDanych/src/main/java/entity/EditionEntity.java</node>
+            <node x="" y="">DeckEntity#file:///home/wemstar/BazyDanych/src/main/java/entity/DeckEntity.java</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.7009646302250804" x="56.55275229357801" y="315.26605504587155" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Properties</Category>
+            <Category>Embeddables</Category>
+            <Category>Superclasses</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/basicData.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="55" selection-start="808" selection-end="808" vertical-scroll-proportion="0.4787234" vertical-offset="0" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/details/card/CardDetailsC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="21" selection-start="3496" selection-end="3496" vertical-scroll-proportion="1.5744681" vertical-offset="775" max-vertical-offset="2160">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/backUp.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-8.536082" vertical-offset="4140" max-vertical-offset="6465">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/statistic/deck/DeckStatisticC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="117" selection-start="4414" selection-end="4414" vertical-scroll-proportion="0.9830508" vertical-offset="691" max-vertical-offset="1410">
           <folding />
         </state>
       </provider>

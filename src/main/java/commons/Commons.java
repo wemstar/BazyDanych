@@ -20,6 +20,12 @@ public class Commons {
 
     public static void updateDictionary()
     {
+        raceList.clear();
+        editionList.clear();
+        typeList.clear();
+        actionList.clear();
+        userList.clear();
+
         List list=HibernateFunctions.getHibernateList(TypeEntity.class,"name");
         for( Object item : list) typeList.add((TypeEntity) item);
 

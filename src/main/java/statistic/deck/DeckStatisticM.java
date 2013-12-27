@@ -11,7 +11,7 @@ public class DeckStatisticM {
 
     public DefaultPieDataset dataset1;
     public DefaultCategoryDataset dataset2;
-    public DefaultPieDataset dataset3;
+    public DefaultCategoryDataset dataset3;
     public DefaultPieDataset dataset4;
     public DeckEntity entity;
 }

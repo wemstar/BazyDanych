@@ -1,9 +1,6 @@
 package entity;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 /**
  * Created by wemstar on 15.12.13.
@@ -42,4 +39,15 @@ public class RaceEntity {
 
     @Override
     public String toString(){return getName();}
+
+    private String fraction;
+
+    @Basic
+    public String getFraction() {
+        return fraction;
+    }
+
+    public void setFraction(String fraction) {
+        this.fraction = fraction;
+    }
 }

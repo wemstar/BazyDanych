@@ -11,6 +11,7 @@ import details.action.ActionDetailsV;
 import details.deck.DeckDetailsC;
 import details.deck.DeckDetailsM;
 import details.deck.DeckDetailsV;
+import entity.ActionEntity;
 import entity.DeckEntity;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -138,6 +139,29 @@ public class Beans {
         view.setModel(new DeckStatisticM());
         view.setController(controller);
         controller.setView(view);
+        return controller;
+    }
+
+    @Bean
+    @Scope("prototype")
+    ActionDetailsC ActionDetails()
+    {
+        ActionDetailsC controller=new ActionDetailsC();
+        ActionDetailsV view=new ActionDetailsV();
+        view.initalizeComponents();
+        controller.setView(view);
+        view.setController(controller);
+        view.setModel(new ActionDetailsM());
+        return controller;
+    }
+
+    @Bean
+    @Scope("prototype")
+    ActionDetailsC NewAction()
+    {
+        ActionDetailsC controller =ActionDetails();
+        ActionEntity entity=new ActionEntity();
+        controller.getView().getModel().entity=entity;
         return controller;
     }
 }
