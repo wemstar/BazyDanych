@@ -92,7 +92,7 @@ public class SearchDeckV {
     public void initializeComponents() {
 
         cbRace.setModel(new DefaultComboBoxModel(Commons.raceList.toArray()));
-        cbUser.setModel(new DefaultComboBoxModel(new String[]{}));
+        cbUser.setModel(new DefaultComboBoxModel(Commons.userList.toArray()));
         tSearchResult.setModel(new DeckListTableModel());
 
 

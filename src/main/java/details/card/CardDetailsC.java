@@ -3,6 +3,10 @@ package details.card;
 import commons.HibernateFunctions;
 import entity.*;
 
+import javax.imageio.ImageIO;
+import java.awt.image.BufferedImage;
+import java.io.*;
+
 /**
  * Created by wemstar on 15.12.13.
  */
@@ -41,6 +45,8 @@ public class CardDetailsC {
         view.setSubTypes(model.subTypes);
         view.setAction(model.action);
         view.setName(model.name);
+        view.setImage(model.img);
+        view.getMainPanel().updateUI();
     }
 
     public void castToModel(CardEntity entity)
@@ -58,6 +64,23 @@ public class CardDetailsC {
         model.subTypes=entity.getSubtypes()!=null?entity.getSubtypes():"";
         model.action=entity.getActions()!=null ? entity.getActions() : null;
         model.name=entity.getName();
+
+        try {
+            if(entity.getImage()!=null)
+            {
+                InputStream in = new ByteArrayInputStream(entity.getImage());
+                model.img = ImageIO.read(in) ;
+            }
+            else
+            {
+                model.img=ImageIO.read(new File("/home/wemstar/BazyDanych/src/main/resources/default.jpg"));
+            }
+
+        } catch (IOException e) {
+            System.err.println(e.getMessage());
+            System.err.println(e.getCause());
+        }
+
         updateView();
 
     }
@@ -80,6 +103,16 @@ public class CardDetailsC {
         entity.setSubtypes(model.subTypes);
         entity.setActions(model.action);
 
+        ByteArrayOutputStream baos = new ByteArrayOutputStream();
+        try {
+            ImageIO.write( model.img, "jpg", baos );
+            baos.flush();
+            entity.setImage(baos.toByteArray());
+            baos.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
         return entity;
 
 
@@ -95,5 +128,17 @@ public class CardDetailsC {
     public void saveCard() {
 
         HibernateFunctions.saveCard(castToEntity());
+    }
+
+    public void loadFile(File selectedFile) {
+
+        CardDetailsM model=view.getModel();
+        try {
+           model.img= ImageIO.read(selectedFile);
+           System.out.println(selectedFile.getPath());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        updateView();
     }
 }

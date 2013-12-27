@@ -25,11 +25,22 @@ public class HibernateFunctions {
     private static SessionFactory sessionFactory;
     public static Configuration configuration=new Configuration();
 
+    static
+    {
+
+    }
+    public static void createFactory(String login,String password)
+    {
+        configuration.setProperty("hibernate.connection.username",login).setProperty("hibernate.connection.password",password);
+        createFactory();
+
+    }
     public static void createFactory()
     {
         configuration.configure();
         ServiceRegistry serviceRegistry = new ServiceRegistryBuilder().applySettings(configuration.getProperties()).buildServiceRegistry();
         sessionFactory = configuration.buildSessionFactory(serviceRegistry);
+
     }
 
     public static void searchCard(SearchCardM model)

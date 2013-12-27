@@ -21,6 +21,9 @@ import search.card.SearchCardV;
 import search.deck.SearchDeckC;
 import search.deck.SearchDeckM;
 import search.deck.SearchDeckV;
+import statistic.deck.DeckStatisticC;
+import statistic.deck.DeckStatisticM;
+import statistic.deck.DeckStatisticV;
 
 /**
  * Created by wemstar on 15.12.13.
@@ -124,6 +127,17 @@ public class Beans {
         controller.setView(view);
         view.setController(controller);
         view.initializeComponents();
+        return controller;
+    }
+    @Bean
+    @Scope("prototype")
+    DeckStatisticC DeckStatistic()
+    {
+        DeckStatisticC controller=new DeckStatisticC();
+        DeckStatisticV view=new DeckStatisticV();
+        view.setModel(new DeckStatisticM());
+        view.setController(controller);
+        controller.setView(view);
         return controller;
     }
 }

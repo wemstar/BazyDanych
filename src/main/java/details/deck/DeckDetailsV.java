@@ -31,6 +31,7 @@ public class DeckDetailsV {
     private JPanel searchPanel;
     private JButton edytujButton;
     private JButton zapiszButton;
+    private JButton statystykaButton;
     private SearchCardV searchControl;
 
     public void addToSearchPanel(JPanel component)
@@ -49,6 +50,12 @@ public class DeckDetailsV {
             @Override
             public void actionPerformed(ActionEvent e) {
                 setControlState(true);
+            }
+        });
+        statystykaButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                controller.statisticView();
             }
         });
     }

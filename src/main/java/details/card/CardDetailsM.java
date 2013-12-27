@@ -5,6 +5,7 @@ import entity.EditionEntity;
 import entity.RaceEntity;
 import entity.TypeEntity;
 
+import java.awt.image.BufferedImage;
 import java.util.List;
 
 /**
@@ -22,4 +23,5 @@ public class CardDetailsM {
     public String subTypes;
     public List<ActionEntity> action;
     public String name;
+    public BufferedImage img;
 }

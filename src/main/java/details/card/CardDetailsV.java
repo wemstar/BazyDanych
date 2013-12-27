@@ -1,14 +1,18 @@
 package details.card;
 
 import commons.Commons;
-import entity.ActionEntity;
-import entity.EditionEntity;
-import entity.RaceEntity;
-import entity.TypeEntity;
+import commons.models.CardListTableModel;
+import core.main.MainApplicationC;
+import entity.*;
 
 import javax.swing.*;
+import javax.swing.filechooser.FileNameExtensionFilter;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.awt.image.BufferedImage;
 import java.util.List;
 
 /**
@@ -34,6 +38,7 @@ public class CardDetailsV {
     private CardDetailsC controller;
 
 
+
     public CardDetailsV() {
         edytujButton.addActionListener(new ActionListener() {
             @Override
@@ -47,6 +52,31 @@ public class CardDetailsV {
                 saveCard();
             }
         });
+        imagePanel.addMouseListener(new MouseAdapter() {
+            public void mousePressed(MouseEvent me) {
+
+                if (me.getClickCount() == 2 && zapiszButton.isEnabled()) {
+
+                    openImage();
+
+                }
+            }
+        });
+    }
+
+    private void openImage() {
+
+        JFileChooser chooser = new JFileChooser();
+        FileNameExtensionFilter filter = new FileNameExtensionFilter(
+                "PNG & JPG Images", "jpg","png");
+        chooser.setFileFilter(filter);
+        MainApplicationC cont= (MainApplicationC) Commons.ctx.getBean("MainApplication");
+
+        if(chooser.showOpenDialog(cont.getView()) == JFileChooser.APPROVE_OPTION) {
+            controller.loadFile(chooser.getSelectedFile());
+            System.out.println("Hura");
+        }
+
     }
 
     private void saveCard() {
@@ -184,5 +214,14 @@ public class CardDetailsV {
     public void setController(CardDetailsC controller) {
         this.controller = controller;
     }
+
+    public void setImage(BufferedImage image) {
+
+        imagePanel.removeAll();
+        imagePanel.add(new JLabel(new ImageIcon(image)));
+        imagePanel.updateUI();
+
+    }
+
 
 }

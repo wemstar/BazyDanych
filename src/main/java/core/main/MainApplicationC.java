@@ -11,7 +11,8 @@ public class MainApplicationC {
 
     public static void main(String[] args) {
 
-        login();
+        //login();
+        HibernateFunctions.createFactory();
         Commons.updateDictionary();
         MainApplicationC controller = (MainApplicationC) Commons.ctx.getBean("MainApplication");
         MainApplicationV  view=controller.getView();
@@ -24,11 +25,13 @@ public class MainApplicationC {
         LoginDialog view=new LoginDialog();
         view.pack();
         view.setVisible(true);
+        view.setLocationRelativeTo(null);
         if(view.isResult())
         {
-            HibernateFunctions.configuration.setProperty("connection.username",view.getTfLogin()).setProperty("connection.password",view.getPfPassword().toString());
+
+            HibernateFunctions.createFactory(view.getTfLogin(),new String(view.getPfPassword()));
         }
-        HibernateFunctions.createFactory();
+
     }
 
     private MainApplicationV view;

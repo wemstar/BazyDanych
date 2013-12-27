@@ -3,10 +3,13 @@ package details.deck;
 import commons.ClickCardAction;
 import commons.Commons;
 import commons.HibernateFunctions;
+import core.main.MainApplicationC;
 import entity.CardEntity;
 import entity.DeckEntity;
 import search.card.SearchCardC;
+import statistic.deck.DeckStatisticC;
 
+import javax.swing.*;
 import java.util.ArrayList;
 
 /**
@@ -88,5 +91,16 @@ public class DeckDetailsC {
     public void performCardClick(CardEntity entity)
     {
         action.cardAction(entity);
+    }
+
+    public void statisticView() {
+        MainApplicationC controll= (MainApplicationC) Commons.ctx.getBean("MainApplication");
+
+        DeckStatisticC cont= (DeckStatisticC) Commons.ctx.getBean("DeckStatistic");
+        cont.getView().getModel().entity=view.getModel().entity;
+        cont.generateDataset();
+        controll.getView().addTab(cont.getView().getMainPanel(), "Statystyka Tali");
+        cont.updateView();
+
     }
 }
