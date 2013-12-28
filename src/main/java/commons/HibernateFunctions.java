@@ -57,11 +57,11 @@ public class HibernateFunctions {
         }
         if(model.edition!= null && !model.edition.getName().isEmpty())
         {
-            criteria=criteria.add(Restrictions.like("edition", model.edition));
+            criteria=criteria.add(Restrictions.eq("edition", model.edition));
         }
         if(model.name!= null && !model.name.isEmpty())
         {
-            criteria=criteria.add(Restrictions.eq("name", model.name));
+            criteria=criteria.add(Restrictions.like("name", "%"+model.name+"%"));
         }
         if(model.type!= null && !model.type.getName().isEmpty())
         {
@@ -115,11 +115,11 @@ public class HibernateFunctions {
         }
         if(model.name!= null && !model.name.isEmpty())
         {
-            criteria=criteria.add(Restrictions.like("name", model.name));
+            criteria=criteria.add(Restrictions.like("name","%"+ model.name+"%"));
         }
         if(model.user!= null && !model.user.getNick().isEmpty())
         {
-            criteria=criteria.add(Restrictions.like("user", model.user));
+            criteria=criteria.add(Restrictions.like("user", "%"+model.user+"%"));
         }
         criteria.setResultTransformer(Criteria.DISTINCT_ROOT_ENTITY);
         List list= criteria.list();
@@ -174,7 +174,7 @@ public class HibernateFunctions {
         Session session= sessionFactory.openSession();
         Criteria criteria=session.createCriteria(ActionEntity.class);
 
-        if(!(model.entity.getName()==null || model.entity.getName().isEmpty()))criteria.add(Restrictions.like("name",model.entity.getName()));
+        if(!(model.entity.getName()==null || model.entity.getName().isEmpty()))criteria.add(Restrictions.like("name","%"+model.entity.getName()+"%"));
         if(!(model.entity.getType()==null || model.entity.getType().isEmpty()))criteria.add(Restrictions.eq("type", model.entity.getType()));
         if(!(model.entity.getTriger()==null || model.entity.getTriger().isEmpty()))criteria.add(Restrictions.eq("triger", model.entity.getTriger()));
         if(!(model.entity.getAbility()==null || model.entity.getAbility().isEmpty()))criteria.add(Restrictions.eq("ability", model.entity.getAbility()));
@@ -201,7 +201,7 @@ public class HibernateFunctions {
         Session session= sessionFactory.openSession();
         Criteria criteria=session.createCriteria(UserEntity.class);
 
-        if(!(model.entity.getNick()==null || model.entity.getNick().isEmpty()))criteria.add(Restrictions.like("nick",model.entity.getNick()));
+        if(!(model.entity.getNick()==null || model.entity.getNick().isEmpty()))criteria.add(Restrictions.like("nick","%"+model.entity.getNick()+"%"));
         if(!(model.entity.getRole()==null || model.entity.getRole().isEmpty()))criteria.add(Restrictions.eq("role", model.entity.getRole()));
 
 

@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75334a99-bbd6-431e-8b96-78b92eb666c5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/commons/security/Hashing.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/commons/Beans.java" afterPath="$PROJECT_DIR$/src/main/java/commons/Beans.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/commons/Commons.java" afterPath="$PROJECT_DIR$/src/main/java/commons/Commons.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/details/action/ActionDetailsV.java" afterPath="$PROJECT_DIR$/src/main/java/details/action/ActionDetailsV.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/details/card/CardDetailsV.java" afterPath="$PROJECT_DIR$/src/main/java/details/card/CardDetailsV.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsV.java" afterPath="$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsV.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/statistic/deck/DeckStatisticV.java" afterPath="$PROJECT_DIR$/src/main/java/statistic/deck/DeckStatisticV.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/commons/HibernateFunctions.java" afterPath="$PROJECT_DIR$/src/main/java/commons/HibernateFunctions.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/core/main/MainApplicationC.java" afterPath="$PROJECT_DIR$/src/main/java/core/main/MainApplicationC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/search/deck/SearchDeckC.java" afterPath="$PROJECT_DIR$/src/main/java/search/deck/SearchDeckC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/core/forms/LoginDialog.java" afterPath="$PROJECT_DIR$/src/main/java/core/forms/LoginDialog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/core/main/MainApplicationV.java" afterPath="$PROJECT_DIR$/src/main/java/core/main/MainApplicationV.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/search/action/SearchActionV.java" afterPath="$PROJECT_DIR$/src/main/java/search/action/SearchActionV.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/search/card/SearchCardV.java" afterPath="$PROJECT_DIR$/src/main/java/search/card/SearchCardV.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/search/deck/SearchDeckV.java" afterPath="$PROJECT_DIR$/src/main/java/search/deck/SearchDeckV.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/search/user/SearchUserV.java" afterPath="$PROJECT_DIR$/src/main/java/search/user/SearchUserV.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/details/user/UserDetailsV.java" afterPath="$PROJECT_DIR$/src/main/java/details/user/UserDetailsV.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BazyDanych.iws" />
@@ -75,7 +80,7 @@
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/details/card/CardDetailsV.java" line="221" class="details.card.CardDetailsV" package="details.card">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/details/card/CardDetailsV.java" line="340" class="details.card.CardDetailsV" package="details.card">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -118,25 +123,48 @@
       <file leaf-file-name="HibernateFunctions.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/commons/HibernateFunctions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="219" column="36" selection-start="7361" selection-end="7361" vertical-scroll-proportion="0.0" vertical-offset="2530" max-vertical-offset="3240">
+            <state line="63" column="78" selection-start="2018" selection-end="2018" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="3240">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginDialog.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="LoginDialog.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/core/forms/LoginDialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="13" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+            <state line="9" column="13" selection-start="210" selection-end="210" vertical-scroll-proportion="-2.0106838" vertical-offset="1001" max-vertical-offset="1740">
+              <folding>
+                <element signature="e#1037#1165#0" expanded="true" />
+                <element signature="e#1154#1155#0" expanded="true" />
+                <element signature="e#1821#1822#0" expanded="true" />
+                <element signature="e#1850#1851#0" expanded="true" />
+                <element signature="initializer##0;class#LoginDialog#0" expanded="true" />
+                <element signature="initializer##0;class#LoginDialog#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginDialog.form" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/core/forms/LoginDialog.form">
+          <provider selected="true" editor-type-id="ui-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BazyDanych.iml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BazyDanych.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainApplicationC.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/core/main/MainApplicationC.java">
+      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="8" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="825">
+            <state line="15" column="41" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
               <folding />
             </state>
           </provider>
@@ -145,16 +173,7 @@
       <file leaf-file-name="SearchDeckC.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/search/deck/SearchDeckC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="0" selection-start="1128" selection-end="1128" vertical-scroll-proportion="0.0" vertical-offset="407" max-vertical-offset="900">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeckDetailsC.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsC.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="154" selection-start="1369" selection-end="1369" vertical-scroll-proportion="0.0" vertical-offset="116" max-vertical-offset="1530">
+            <state line="55" column="0" selection-start="1128" selection-end="1128" vertical-scroll-proportion="0.0" vertical-offset="825" max-vertical-offset="1050">
               <folding />
             </state>
           </provider>
@@ -163,13 +182,8 @@
       <file leaf-file-name="DeckDetailsV.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsV.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="20" selection-start="1458" selection-end="1814" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="2160">
-              <folding>
-                <element signature="e#1356#1840#0" expanded="true" />
-                <element signature="e#1829#1830#0" expanded="true" />
-                <element signature="e#1886#2055#0" expanded="true" />
-                <element signature="e#2044#2045#0" expanded="true" />
-              </folding>
+            <state line="64" column="21" selection-start="1922" selection-end="1922" vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="3675">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -177,31 +191,17 @@
       <file leaf-file-name="UserDetailsV.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/details/user/UserDetailsV.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="21" selection-start="1420" selection-end="1420" vertical-scroll-proportion="0.0" vertical-offset="332" max-vertical-offset="1680">
-              <folding>
-                <element signature="e#682#1166#0" expanded="true" />
-                <element signature="e#1155#1156#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Beans.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/commons/Beans.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="197" column="49" selection-start="5466" selection-end="5466" vertical-scroll-proportion="0.6760259" vertical-offset="2132" max-vertical-offset="3120">
+            <state line="46" column="18" selection-start="1547" selection-end="1547" vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="2730">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Hashing.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/commons/security/Hashing.java">
+      <file leaf-file-name="Beans.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/commons/Beans.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="14" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="122" max-vertical-offset="855">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="197" column="49" selection-start="5466" selection-end="5466" vertical-scroll-proportion="0.0" vertical-offset="2365" max-vertical-offset="3120">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -209,7 +209,7 @@
       <file leaf-file-name="Commons.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/commons/Commons.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="40" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="1110">
+            <state line="23" column="40" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1185">
               <folding />
             </state>
           </provider>
@@ -236,6 +236,24 @@
         <entry key="" value="true" />
         <entry key="BazyDanych/" value="true" />
       </map>
+    </option>
+    <option name="recentTasks">
+      <list>
+        <ExternalTaskExecutionInfo>
+          <option name="executorId" value="Run" />
+          <option name="settings">
+            <ExternalSystemSettings>
+              <option name="externalProjectPath" value="$PROJECT_DIR$" />
+              <option name="externalSystemIdString" value="GRADLE" />
+              <option name="taskNames">
+                <list>
+                  <option value="run" />
+                </list>
+              </option>
+            </ExternalSystemSettings>
+          </option>
+        </ExternalTaskExecutionInfo>
+      </list>
     </option>
     <option name="availableProjects">
       <map>
@@ -371,9 +389,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/core/forms/LoginDialog.form" />
-        <option value="$PROJECT_DIR$/src/main/java/core/forms/LoginDialog.java" />
         <option value="$PROJECT_DIR$/src/main/java/statistic/deck/DeckStatisticM.java" />
         <option value="$PROJECT_DIR$/src/main/java/statistic/deck/DeckStatisticV.java" />
         <option value="$PROJECT_DIR$/src/main/java/statistic/deck/DeckStatisticV.form" />
@@ -414,7 +430,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/sql/basicCard.sql" />
         <option value="$PROJECT_DIR$/src/main/java/entity/UserEntity.java" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/commons/HibernateFunctions.java" />
         <option value="$PROJECT_DIR$/src/main/java/commons/Commons.java" />
         <option value="$PROJECT_DIR$/src/main/java/commons/security/Hashing.java" />
         <option value="$PROJECT_DIR$/src/main/java/core/main/MainApplicationC.java" />
@@ -422,6 +437,9 @@
         <option value="$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsV.java" />
         <option value="$PROJECT_DIR$/src/main/java/details/user/UserDetailsV.java" />
         <option value="$PROJECT_DIR$/src/main/java/commons/Beans.java" />
+        <option value="$PROJECT_DIR$/src/main/java/commons/HibernateFunctions.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/core/forms/LoginDialog.java" />
       </list>
     </option>
   </component>
@@ -429,9 +447,8 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-3" />
-    <option name="width" value="1606" />
-    <option name="height" value="877" />
+    <option name="width" value="1600" />
+    <option name="height" value="874" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -459,6 +476,34 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BazyDanych" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BazyDanych" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BazyDanych" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BazyDanych" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -540,36 +585,72 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="commons" />
+              <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="BazyDanych" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="BazyDanych" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewLibrariesNode" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LoginDialog" />
+              <option name="myItemType" value="com.intellij.uiDesigner.projectView.FormNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="BazyDanych" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="BazyDanych" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -627,7 +708,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Glowna">
+  <component name="RunManager" selected="Gradle.BazyDanych [run]">
     <configuration default="false" name="BazyDanych [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -664,12 +745,6 @@
       <ConfigurationWrapper RunnerId="ExternalSystemTaskRunner" />
       <method />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
       <module name="" />
       <setting name="vmparams" value="" />
@@ -678,6 +753,12 @@
       <setting name="passParentEnv" value="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -722,17 +803,23 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
       <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -763,23 +850,17 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
       <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -818,6 +899,12 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -835,12 +922,6 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <configuration default="false" name="Glowna" type="Application" factoryName="Application">
@@ -941,7 +1022,8 @@
       <workItem from="1388078032568" duration="119000" />
       <workItem from="1388084871361" duration="18243000" />
       <workItem from="1388138051233" duration="32973000" />
-      <workItem from="1388181778323" duration="3768000" />
+      <workItem from="1388181778323" duration="3941000" />
+      <workItem from="1388235006991" duration="1127000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;problem z data source">
       <created>1387491090656</created>
@@ -967,11 +1049,15 @@
       <created>1388174054013</created>
       <updated>1388174054013</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Dodano hasowanie hasła">
+      <created>1388185878230</created>
+      <updated>1388185878230</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87549000" />
+    <option name="totallyTimeSpent" value="88849000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -994,14 +1080,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="0" width="1606" height="877" extended-state="6" />
+    <frame x="0" y="0" width="1600" height="874" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32860824" sideWeight="0.49804688" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938075" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32862645" sideWeight="0.5019531" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23491655" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23453608" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33055198" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1011,16 +1098,15 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32804233" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925257" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938075" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967907" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.040436458" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967907" sideWeight="0.49607843" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3254282" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32862645" sideWeight="0.49804688" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25064433" sideWeight="0.49607843" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32671958" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967907" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1030,15 +1116,15 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32862645" sideWeight="0.49804688" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32862645" sideWeight="0.49804688" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938075" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32862645" sideWeight="0.5019531" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33055198" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33055198" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -1058,8 +1144,8 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967907" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -1081,7 +1167,8 @@
     <MESSAGE value="Dodano transakcje" />
     <MESSAGE value="Dodano szukajke akcji" />
     <MESSAGE value="Ukończono apliakcej &#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ukończono apliakcej &#10;" />
+    <MESSAGE value="Dodano hasowanie hasła" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodano hasowanie hasła" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1091,38 +1178,17 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/basicDeck.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="98" selection-start="693" selection-end="693" vertical-scroll-proportion="0.25974026" vertical-offset="0" max-vertical-offset="462" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/details/card/CardDetailsV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="71" selection-start="1736" selection-end="1736" vertical-scroll-proportion="0.0" vertical-offset="251" max-vertical-offset="3030">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/details/action/ActionDetailsM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="11" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/79fe87aa/91a6ec93-fe95-4dc1-a250-f31513d02b16/i1macura.project.action">
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100" />
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entity/CardEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="175" column="41" selection-start="4623" selection-end="4623" vertical-scroll-proportion="0.0" vertical-offset="1470" max-vertical-offset="2145">
-          <folding />
-        </state>
+        <state line="175" column="41" selection-start="4623" selection-end="4623" vertical-scroll-proportion="0.0" vertical-offset="1470" max-vertical-offset="2145" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entity/ActionEntity.java">
@@ -1134,9 +1200,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entity/RaceEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
-          <folding />
-        </state>
+        <state line="9" column="13" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825" />
       </provider>
     </entry>
     <entry file="uml://Persistence/JavaeeElement:/79fe87aa/hibernate.cfg.xml/BazyDanych/hibernate/Hibernate/PersistenceModel">
@@ -1146,12 +1210,12 @@
           <OriginalElement>JavaeeElement:/79fe87aa/hibernate.cfg.xml/BazyDanych/hibernate/Hibernate/PersistenceModel</OriginalElement>
           <nodes>
             <node x="" y="">ActionEntity#file:///home/wemstar/BazyDanych/src/main/java/entity/ActionEntity.java</node>
-            <node x="" y="">UserEntity#file:///home/wemstar/BazyDanych/src/main/java/entity/UserEntity.java</node>
             <node x="" y="">CardEntity#file:///home/wemstar/BazyDanych/src/main/java/entity/CardEntity.java</node>
+            <node x="" y="">UserEntity#file:///home/wemstar/BazyDanych/src/main/java/entity/UserEntity.java</node>
             <node x="" y="">TypeEntity#file:///home/wemstar/BazyDanych/src/main/java/entity/TypeEntity.java</node>
             <node x="" y="">RaceEntity#file:///home/wemstar/BazyDanych/src/main/java/entity/RaceEntity.java</node>
-            <node x="" y="">DeckEntity#file:///home/wemstar/BazyDanych/src/main/java/entity/DeckEntity.java</node>
             <node x="" y="">EditionEntity#file:///home/wemstar/BazyDanych/src/main/java/entity/EditionEntity.java</node>
+            <node x="" y="">DeckEntity#file:///home/wemstar/BazyDanych/src/main/java/entity/DeckEntity.java</node>
           </nodes>
           <notes />
           <edges />
@@ -1217,9 +1281,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/commons/models/CardListTableModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="32" selection-start="224" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1035">
-          <folding />
-        </state>
+        <state line="11" column="32" selection-start="224" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1035" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/search/card/SearchCardC.java">
@@ -1245,11 +1307,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/commons/models/ActionListTableModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="25" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0" vertical-offset="130" max-vertical-offset="930">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="16" column="25" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0" vertical-offset="130" max-vertical-offset="930" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/details/action/ActionDetailsV.form">
@@ -1262,8 +1320,8 @@
         <state line="35" column="38" selection-start="949" selection-end="949" vertical-scroll-proportion="0.0" vertical-offset="332" max-vertical-offset="1560">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#809#977#0" expanded="true" />
-            <element signature="e#966#967#0" expanded="true" />
+            <element signature="e#936#1104#0" expanded="false" />
+            <element signature="e#1093#1094#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1286,8 +1344,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="20" selection-start="1153" selection-end="1505" vertical-scroll-proportion="0.0" vertical-offset="222" max-vertical-offset="1650">
           <folding>
-            <element signature="e#1061#1529#0" expanded="true" />
-            <element signature="e#1518#1519#0" expanded="true" />
+            <element signature="e#1169#1637#0" expanded="false" />
+            <element signature="e#1626#1627#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1319,16 +1377,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/commons/models/UserListTableModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="35" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
-          <folding />
-        </state>
+        <state line="21" column="35" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/search/deck/SearchDeckV.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="17" selection-start="1067" selection-end="1492" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1275">
           <folding>
-            <element signature="e#1034#1502#0" expanded="true" />
+            <element signature="e#1142#1610#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1341,10 +1397,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/core/main/MainApplicationV.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="66" column="44" selection-start="2008" selection-end="2008" vertical-scroll-proportion="0.0" vertical-offset="326" max-vertical-offset="1635">
-          <folding>
-            <element signature="e#1692#1847#0" expanded="true" />
-            <element signature="e#1836#1837#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1379,16 +1432,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entity/EditionEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0" vertical-offset="92" max-vertical-offset="690">
-          <folding />
-        </state>
+        <state line="12" column="13" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0" vertical-offset="92" max-vertical-offset="690" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entity/DeckEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="42" selection-start="1230" selection-end="1253" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1005">
-          <folding />
-        </state>
+        <state line="56" column="42" selection-start="1230" selection-end="1253" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1005" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entity/UserEntity.java">
@@ -1405,33 +1454,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/forms/LoginDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/commons/HibernateFunctions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="219" column="36" selection-start="7361" selection-end="7361" vertical-scroll-proportion="0.0" vertical-offset="2530" max-vertical-offset="3240">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/commons/Commons.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="40" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="1110">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/commons/security/Hashing.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="14" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="122" max-vertical-offset="855">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1458,30 +1484,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsV.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="20" selection-start="1458" selection-end="1814" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="2160">
-          <folding>
-            <element signature="e#1356#1840#0" expanded="true" />
-            <element signature="e#1829#1830#0" expanded="true" />
-            <element signature="e#1886#2055#0" expanded="true" />
-            <element signature="e#2044#2045#0" expanded="true" />
-          </folding>
+        <state line="64" column="21" selection-start="1922" selection-end="1922" vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="3675">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/details/user/UserDetailsV.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="21" selection-start="1420" selection-end="1420" vertical-scroll-proportion="0.0" vertical-offset="332" max-vertical-offset="1680">
-          <folding>
-            <element signature="e#682#1166#0" expanded="true" />
-            <element signature="e#1155#1156#0" expanded="true" />
-          </folding>
+        <state line="46" column="18" selection-start="1547" selection-end="1547" vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="2730">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/commons/Beans.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="197" column="49" selection-start="5466" selection-end="5466" vertical-scroll-proportion="0.6760259" vertical-offset="2132" max-vertical-offset="3120">
+        <state line="197" column="49" selection-start="5466" selection-end="5466" vertical-scroll-proportion="0.0" vertical-offset="2365" max-vertical-offset="3120">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/commons/Commons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="40" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="1110">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/commons/HibernateFunctions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="78" selection-start="2018" selection-end="2018" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="3240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BazyDanych.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="41" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/forms/LoginDialog.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/forms/LoginDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="210" selection-end="210" vertical-scroll-proportion="-2.0106838" vertical-offset="1001" max-vertical-offset="1740">
+          <folding>
+            <element signature="e#1037#1165#0" expanded="true" />
+            <element signature="e#1154#1155#0" expanded="true" />
+            <element signature="e#1821#1822#0" expanded="true" />
+            <element signature="e#1850#1851#0" expanded="true" />
+            <element signature="initializer##0;class#LoginDialog#0" expanded="true" />
+            <element signature="initializer##0;class#LoginDialog#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
