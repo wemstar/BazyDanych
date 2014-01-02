@@ -1,5 +1,6 @@
 package details.card;
 
+import commons.Commons;
 import commons.HibernateFunctions;
 import entity.*;
 
@@ -143,5 +144,9 @@ public class CardDetailsC {
             e.printStackTrace();
         }
         updateView();
+    }
+
+    public void deleteCard() {
+        if(Commons.currentUser.getRole().equals("admin"))HibernateFunctions.deleteCard(castToEntity());
     }
 }

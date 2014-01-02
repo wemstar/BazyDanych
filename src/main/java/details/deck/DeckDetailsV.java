@@ -68,6 +68,12 @@ public class DeckDetailsV {
                 controller.statisticView();
             }
         });
+        deleteButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                controller.deleteDeck();
+            }
+        });
     }
 
     public void setModel(DeckDetailsM model) {

@@ -1,6 +1,11 @@
 package entity;
 
+import org.hibernate.annotations.*;
+
 import javax.persistence.*;
+import javax.persistence.CascadeType;
+import javax.persistence.Entity;
+import javax.persistence.Table;
 import java.util.Collection;
 
 /**
@@ -54,9 +59,12 @@ public class DeckEntity {
 
     private Collection<CardEntity> card_list;
 
+
+
     @ManyToMany(cascade = CascadeType.ALL,fetch = FetchType.EAGER)
-    @JoinTable(name = "card_deck", catalog = "project", joinColumns = { @JoinColumn(name = "deck_id",nullable = false, updatable = false,unique = false) },
-            inverseJoinColumns = { @JoinColumn(name = "card_id", nullable = false, updatable = false, unique = false) })
+    @JoinTable(name = "card_deck", catalog = "project", joinColumns = {
+            @JoinColumn(name = "deck_id", nullable = false, updatable = false) },
+            inverseJoinColumns = { @JoinColumn(name = "card_id",nullable = false, updatable = false) })
     public Collection<CardEntity> getCard_list() {
         return card_list;
     }
@@ -67,7 +75,7 @@ public class DeckEntity {
 
     private UserEntity user;
 
-    @ManyToOne(cascade = CascadeType.ALL, optional = false)
+    @ManyToOne( optional = false)
     public UserEntity getUser() {
         return user;
     }

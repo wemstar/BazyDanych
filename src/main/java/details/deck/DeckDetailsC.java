@@ -117,4 +117,8 @@ public class DeckDetailsC {
         cont.updateView();
 
     }
+
+    public void deleteDeck() {
+        if(Commons.currentUser.getRole().equals("admin"))HibernateFunctions.deleteDeck(view.getModel().entity);
+    }
 }

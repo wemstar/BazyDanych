@@ -54,6 +54,12 @@ public class UserDetailsV {
 
             }
         });
+        bDelete.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                controller.deleteUser();
+            }
+        });
     }
 
     public UserDetailsM getModel() {

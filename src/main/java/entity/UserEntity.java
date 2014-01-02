@@ -73,7 +73,7 @@ public class UserEntity {
 
     private Collection<DeckEntity> decks;
 
-    @OneToMany(cascade = CascadeType.REFRESH, mappedBy = "user")
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "user")
     @LazyCollection(LazyCollectionOption.FALSE)
     public Collection<DeckEntity> getDecks() {
         return decks;

@@ -29,14 +29,17 @@ public class DeckStatisticC {
         view.getPanelTwo().removeAll();
         view.getPanelThere().removeAll();
         view.getPanelFour().removeAll();
+
         DeckStatisticM model=view.getModel();
         JFreeChart chart1= ChartFactory.createPieChart("Statystyka typów",model.dataset1,true,true,false);
         JFreeChart chart2=ChartFactory.createBarChart("Statystyka siły i obrony kart do ich kosztu","Koszt","Wartość",model.dataset2, PlotOrientation.VERTICAL,true,true,false);
         JFreeChart chart3=ChartFactory.createBarChart("Liczba kart o podanym koszczie","Koszt","Ilość",model.dataset3, PlotOrientation.VERTICAL,true,true,false);
+        JFreeChart chart4= ChartFactory.createPieChart("Statystyka ras",model.dataset4,true,true,false);
 
         view.getPanelOne().add(new ChartPanel(chart1));
         view.getPanelTwo().add(new ChartPanel(chart2));
         view.getPanelThere().add(new ChartPanel(chart3));
+        view.getPanelFour().add(new ChartPanel(chart4));
     }
     public void generateDataset()
     {
@@ -44,9 +47,12 @@ public class DeckStatisticC {
         model.dataset1=new DefaultPieDataset();
         model.dataset2=new DefaultCategoryDataset();
         model.dataset3=new DefaultCategoryDataset();
+        model.dataset4=new DefaultPieDataset();
+
         countStatistic(model.dataset1,model.entity.getCard_list());
         cardCostToPower(model.dataset2, model.entity.getCard_list());
         cardCostStatistic(model.dataset3,model.entity.getCard_list());
+        countRaceStat(model.dataset4,model.entity.getCard_list());
     }
 
     public void countStatistic(DefaultPieDataset dataSet,Collection<CardEntity> cardList)
@@ -56,6 +62,18 @@ public class DeckStatisticC {
         for(TypeEntity key : Commons.typeList) { if(!key.getName().isEmpty())typeCount.put(key.getName(),0); }
         for(CardEntity card: cardList) { typeCount.put(card.getType().getName(),typeCount.get(card.getType().getName())+1); }
         for(Map.Entry<String,Integer> entry:typeCount.entrySet()){ dataSet.setValue(entry.getKey(),entry.getValue()); }
+    }
+
+    public void countRaceStat(DefaultPieDataset dataSet,Collection<CardEntity> cardList)
+    {
+        Map<String,Integer> raceCount=new HashMap<String, Integer>();
+        for(CardEntity card: cardList)
+        {
+            if(raceCount.containsKey(card.getRace().getName()))raceCount.put(card.getRace().getName(),raceCount.get(card.getRace().getName())+1);
+            else raceCount.put(card.getRace().getName(),1);
+        }
+        for(Map.Entry<String,Integer> entry:raceCount.entrySet())dataSet.setValue(entry.getKey(),entry.getValue());
+
     }
 
     public void cardCostToPower(DefaultCategoryDataset dataSet,Collection<CardEntity> cardList)

@@ -41,10 +41,15 @@
     <orderEntry type="library" exported="" name="Gradle: spring-core-3.2.5.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: junit-4.11" level="project" />
     <orderEntry type="library" exported="" name="Gradle: hibernate-jpa-2.0-api-1.0.1.Final" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: forms_rt" level="project" />
     <orderEntry type="library" exported="" name="Gradle: jfreechart-1.0.0" level="project" />
     <orderEntry type="library" exported="" name="Gradle: junit-3.8" level="project" />
     <orderEntry type="library" exported="" name="Gradle: jcommon-1.0.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: forms-1.1-preview" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jdom-1.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: forms_rt-7.0.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: asm-tree-3.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: asm-commons-3.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: asm-3.0" level="project" />
   </component>
 </module>
 

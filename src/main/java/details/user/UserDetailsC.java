@@ -1,5 +1,6 @@
 package details.user;
 
+import commons.Commons;
 import commons.HibernateFunctions;
 import entity.UserEntity;
 
@@ -45,5 +46,9 @@ public class UserDetailsC {
         updateModel();
         if(!Arrays.equals(view.getPassword(),view.getPasswordConfirm()))throw new Exception();
         HibernateFunctions.saveUser(view.getModel().entity);
+    }
+
+    public void deleteUser() {
+        if(Commons.currentUser.getRole().equals("admin"))HibernateFunctions.deleteUser(view.getModel().entity);
     }
 }

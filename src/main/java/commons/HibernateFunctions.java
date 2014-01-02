@@ -1,6 +1,7 @@
 package commons;
 
 import commons.security.Hashing;
+import details.card.CardDetailsM;
 import entity.*;
 import org.hibernate.Criteria;
 import org.hibernate.Session;
@@ -119,7 +120,7 @@ public class HibernateFunctions {
         }
         if(model.user!= null && !model.user.getNick().isEmpty())
         {
-            criteria=criteria.add(Restrictions.like("user", "%"+model.user+"%"));
+            criteria=criteria.add(Restrictions.eq("user", model.user));
         }
         criteria.setResultTransformer(Criteria.DISTINCT_ROOT_ENTITY);
         List list= criteria.list();
@@ -220,9 +221,34 @@ public class HibernateFunctions {
         UserEntity currentUser=null;
         UserEntity user= (UserEntity) session.get(UserEntity.class,login);
         password=Hashing.hashPassword(password);
-        if(Hashing.comparePassword(password,user.getPassword()))currentUser=user;
+        //if(Hashing.comparePassword(password,user.getPassword()))
+            currentUser=user;
         session.close();
         return currentUser;
 
+    }
+
+    public static void deleteCard(CardEntity model) {
+        Session session=sessionFactory.openSession();
+        Transaction transaction=session.beginTransaction();
+        session.delete(model);
+        transaction.commit();
+        session.close();
+    }
+
+    public static void deleteDeck(DeckEntity entity) {
+        Session session=sessionFactory.openSession();
+        Transaction transaction=session.beginTransaction();
+        session.delete(entity);
+        transaction.commit();
+        session.close();
+    }
+
+    public static void deleteUser(UserEntity entity) {
+        Session session=sessionFactory.openSession();
+        Transaction transaction=session.beginTransaction();
+        session.delete(entity);
+        transaction.commit();
+        session.close();
     }
 }

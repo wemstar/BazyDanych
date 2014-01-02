@@ -1,5 +1,8 @@
 package entity;
 
+import org.hibernate.annotations.OnDelete;
+import org.hibernate.annotations.OnDeleteAction;
+
 import javax.persistence.*;
 import java.util.Arrays;
 import java.util.Collection;
@@ -10,6 +13,7 @@ import java.util.List;
  */
 @Entity
 @Table(name = "card", schema = "project", catalog = "i1macura")
+@OnDelete(action = OnDeleteAction.CASCADE)
 public class CardEntity  {
     private Integer addicionallcost;
     private Integer cost;

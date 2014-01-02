@@ -2,20 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75334a99-bbd6-431e-8b96-78b92eb666c5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/details/action/ActionDetailsV.java" afterPath="$PROJECT_DIR$/src/main/java/details/action/ActionDetailsV.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__forms_rt.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BazyDanych.iml" afterPath="$PROJECT_DIR$/BazyDanych.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/details/card/CardDetailsC.java" afterPath="$PROJECT_DIR$/src/main/java/details/card/CardDetailsC.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/details/card/CardDetailsV.java" afterPath="$PROJECT_DIR$/src/main/java/details/card/CardDetailsV.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/entity/CardEntity.java" afterPath="$PROJECT_DIR$/src/main/java/entity/CardEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsC.java" afterPath="$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsC.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsV.java" afterPath="$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsV.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/statistic/deck/DeckStatisticV.java" afterPath="$PROJECT_DIR$/src/main/java/statistic/deck/DeckStatisticV.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/entity/DeckEntity.java" afterPath="$PROJECT_DIR$/src/main/java/entity/DeckEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/statistic/deck/DeckStatisticC.java" afterPath="$PROJECT_DIR$/src/main/java/statistic/deck/DeckStatisticC.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/commons/HibernateFunctions.java" afterPath="$PROJECT_DIR$/src/main/java/commons/HibernateFunctions.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/core/forms/LoginDialog.java" afterPath="$PROJECT_DIR$/src/main/java/core/forms/LoginDialog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/core/main/MainApplicationV.java" afterPath="$PROJECT_DIR$/src/main/java/core/main/MainApplicationV.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/search/action/SearchActionV.java" afterPath="$PROJECT_DIR$/src/main/java/search/action/SearchActionV.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/search/card/SearchCardV.java" afterPath="$PROJECT_DIR$/src/main/java/search/card/SearchCardV.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/search/deck/SearchDeckV.java" afterPath="$PROJECT_DIR$/src/main/java/search/deck/SearchDeckV.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/search/user/SearchUserV.java" afterPath="$PROJECT_DIR$/src/main/java/search/user/SearchUserV.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/details/user/UserDetailsC.java" afterPath="$PROJECT_DIR$/src/main/java/details/user/UserDetailsC.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/details/user/UserDetailsV.java" afterPath="$PROJECT_DIR$/src/main/java/details/user/UserDetailsV.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/entity/UserEntity.java" afterPath="$PROJECT_DIR$/src/main/java/entity/UserEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BazyDanych.iws" />
@@ -80,7 +80,7 @@
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/details/card/CardDetailsV.java" line="340" class="details.card.CardDetailsV" package="details.card">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/details/card/CardDetailsV.java" line="346" class="details.card.CardDetailsV" package="details.card">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -123,66 +123,79 @@
       <file leaf-file-name="HibernateFunctions.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/commons/HibernateFunctions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="78" selection-start="2018" selection-end="2018" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="3240">
+            <state line="223" column="10" selection-start="7560" selection-end="7560" vertical-scroll-proportion="0.0" vertical-offset="2930" max-vertical-offset="3615">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginDialog.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/core/forms/LoginDialog.java">
+      <file leaf-file-name="UserEntity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/entity/UserEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="210" selection-end="210" vertical-scroll-proportion="-2.0106838" vertical-offset="1001" max-vertical-offset="1740">
+            <state line="75" column="40" selection-start="1853" selection-end="1853" vertical-scroll-proportion="0.0" vertical-offset="535" max-vertical-offset="1065">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeckDetailsC.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="121" column="111" selection-start="3701" selection-end="3701" vertical-scroll-proportion="0.0" vertical-offset="1130" max-vertical-offset="1590">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeckEntity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/entity/DeckEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="63" column="65" selection-start="1395" selection-end="1395" vertical-scroll-proportion="0.51086956" vertical-offset="710" max-vertical-offset="1380">
               <folding>
-                <element signature="e#1037#1165#0" expanded="true" />
-                <element signature="e#1154#1155#0" expanded="true" />
-                <element signature="e#1821#1822#0" expanded="true" />
-                <element signature="e#1850#1851#0" expanded="true" />
-                <element signature="initializer##0;class#LoginDialog#0" expanded="true" />
-                <element signature="initializer##0;class#LoginDialog#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#459#460#0" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
+                <element signature="e#526#527#0" expanded="true" />
+                <element signature="e#558#559#0" expanded="true" />
+                <element signature="e#1082#1083#0" expanded="true" />
+                <element signature="e#1115#1116#0" expanded="true" />
+                <element signature="e#1171#1172#0" expanded="true" />
+                <element signature="e#1215#1216#0" expanded="true" />
+                <element signature="e#1704#1705#0" expanded="true" />
+                <element signature="e#1736#1737#0" expanded="true" />
+                <element signature="e#1802#1803#0" expanded="true" />
+                <element signature="e#1844#1845#0" expanded="true" />
+                <element signature="e#1943#1944#0" expanded="true" />
+                <element signature="e#1970#1971#0" expanded="true" />
+                <element signature="e#2014#2015#0" expanded="true" />
+                <element signature="e#2046#2047#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginDialog.form" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/core/forms/LoginDialog.form">
-          <provider selected="true" editor-type-id="ui-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BazyDanych.iml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BazyDanych.iml">
+      <file leaf-file-name="CardEntity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/entity/CardEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
+            <state line="179" column="4" selection-start="4722" selection-end="5022" vertical-scroll-proportion="0.0" vertical-offset="1700" max-vertical-offset="2160">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+      <file leaf-file-name="MainApplicationC.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/core/main/MainApplicationC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="41" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+            <state line="36" column="58" selection-start="908" selection-end="908" vertical-scroll-proportion="0.0" vertical-offset="230" max-vertical-offset="825">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchDeckC.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/search/deck/SearchDeckC.java">
+      <file leaf-file-name="ActionEntity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/entity/ActionEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="0" selection-start="1128" selection-end="1128" vertical-scroll-proportion="0.0" vertical-offset="825" max-vertical-offset="1050">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeckDetailsV.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsV.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="21" selection-start="1922" selection-end="1922" vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="3675">
+            <state line="9" column="13" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" vertical-offset="335" max-vertical-offset="1065">
               <folding />
             </state>
           </provider>
@@ -191,25 +204,25 @@
       <file leaf-file-name="UserDetailsV.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/details/user/UserDetailsV.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="18" selection-start="1547" selection-end="1547" vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="2730">
+            <state line="33" column="0" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0" vertical-offset="196" max-vertical-offset="2310">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Beans.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/commons/Beans.java">
+      <file leaf-file-name="MainApplicationV.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/core/main/MainApplicationV.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="197" column="49" selection-start="5466" selection-end="5466" vertical-scroll-proportion="0.0" vertical-offset="2365" max-vertical-offset="3120">
+            <state line="66" column="44" selection-start="2020" selection-end="2020" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="2325">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Commons.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/commons/Commons.java">
+      <file leaf-file-name="DeckStatisticC.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/statistic/deck/DeckStatisticC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="40" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1185">
+            <state line="41" column="56" selection-start="1671" selection-end="1671" vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="1680">
               <folding />
             </state>
           </provider>
@@ -397,19 +410,12 @@
         <option value="$PROJECT_DIR$/src/main/java/search/deck/SearchDeckV.form" />
         <option value="$PROJECT_DIR$/src/main/resources/sql/basicDeck.sql" />
         <option value="$PROJECT_DIR$/src/main/java/details/card/CardDetailsM.java" />
-        <option value="$PROJECT_DIR$/src/main/java/details/card/CardDetailsV.java" />
         <option value="$PROJECT_DIR$/src/main/java/search/deck/SearchDeckV.java" />
-        <option value="$PROJECT_DIR$/src/main/java/entity/DeckEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/details/action/ActionDetailsM.java" />
         <option value="dbtable:/79fe87aa/91a6ec93-fe95-4dc1-a250-f31513d02b16/i1macura.project.action" />
-        <option value="$PROJECT_DIR$/src/main/java/entity/CardEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/details/card/CardDetailsC.java" />
         <option value="$PROJECT_DIR$/src/main/resources/sql/basicData.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsC.java" />
-        <option value="$PROJECT_DIR$/src/main/java/statistic/deck/DeckStatisticC.java" />
         <option value="$PROJECT_DIR$/src/main/java/details/user/UserDetailsM.java" />
         <option value="$PROJECT_DIR$/src/main/java/core/main/MainApplicationV.form" />
-        <option value="$PROJECT_DIR$/src/main/java/details/user/UserDetailsC.java" />
         <option value="$PROJECT_DIR$/src/main/java/details/action/ActionDetailsV.form" />
         <option value="$PROJECT_DIR$/src/main/java/details/card/CardDetailsV.form" />
         <option value="$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsV.form" />
@@ -428,18 +434,25 @@
         <option value="$PROJECT_DIR$/src/main/java/search/user/SearchUserV.form" />
         <option value="$PROJECT_DIR$/src/main/java/search/user/SearchUserV.java" />
         <option value="$PROJECT_DIR$/src/main/resources/sql/basicCard.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/entity/UserEntity.java" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/java/commons/Commons.java" />
         <option value="$PROJECT_DIR$/src/main/java/commons/security/Hashing.java" />
-        <option value="$PROJECT_DIR$/src/main/java/core/main/MainApplicationC.java" />
         <option value="$PROJECT_DIR$/src/main/java/search/deck/SearchDeckC.java" />
-        <option value="$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsV.java" />
-        <option value="$PROJECT_DIR$/src/main/java/details/user/UserDetailsV.java" />
         <option value="$PROJECT_DIR$/src/main/java/commons/Beans.java" />
-        <option value="$PROJECT_DIR$/src/main/java/commons/HibernateFunctions.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/core/forms/LoginDialog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/details/card/CardDetailsV.java" />
+        <option value="$PROJECT_DIR$/src/main/java/details/card/CardDetailsC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsV.java" />
+        <option value="$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/details/user/UserDetailsV.java" />
+        <option value="$PROJECT_DIR$/src/main/java/details/user/UserDetailsC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/statistic/deck/DeckStatisticC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/main/MainApplicationC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/commons/HibernateFunctions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entity/UserEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entity/CardEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entity/DeckEntity.java" />
       </list>
     </option>
   </component>
@@ -504,7 +517,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -585,7 +597,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
+              <option name="myItemId" value="entity" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -611,50 +623,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LoginDialog" />
-              <option name="myItemType" value="com.intellij.uiDesigner.projectView.FormNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BazyDanych" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BazyDanych" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forms" />
+              <option name="myItemId" value="commons" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -713,6 +688,7 @@
       <ExternalSystemSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -731,6 +707,7 @@
       <ExternalSystemSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -793,6 +770,7 @@
       <ExternalSystemSettings>
         <option name="externalProjectPath" />
         <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -1023,7 +1001,13 @@
       <workItem from="1388084871361" duration="18243000" />
       <workItem from="1388138051233" duration="32973000" />
       <workItem from="1388181778323" duration="3941000" />
-      <workItem from="1388235006991" duration="1127000" />
+      <workItem from="1388235006991" duration="1200000" />
+      <workItem from="1388242024470" duration="466000" />
+      <workItem from="1388255710454" duration="4353000" />
+      <workItem from="1388354054480" duration="1344000" />
+      <workItem from="1388430570112" duration="655000" />
+      <workItem from="1388437216461" duration="71000" />
+      <workItem from="1388694144245" duration="4691000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;problem z data source">
       <created>1387491090656</created>
@@ -1053,11 +1037,15 @@
       <created>1388185878230</created>
       <updated>1388185878230</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Dodano generowanie gui&#10;">
+      <created>1388236194625</created>
+      <updated>1388236194625</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88849000" />
+    <option name="totallyTimeSpent" value="100502000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1081,9 +1069,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1600" height="874" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32860824" sideWeight="0.49804688" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938075" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1098,18 +1085,19 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32804233" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32804233" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925257" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938075" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967907" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.040436458" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25064433" sideWeight="0.49607843" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32671958" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25064433" sideWeight="0.49607843" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32671958" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32860824" sideWeight="0.49804688" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967907" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24935567" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1168,7 +1156,8 @@
     <MESSAGE value="Dodano szukajke akcji" />
     <MESSAGE value="Ukończono apliakcej &#10;" />
     <MESSAGE value="Dodano hasowanie hasła" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodano hasowanie hasła" />
+    <MESSAGE value="Dodano generowanie gui&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodano generowanie gui&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1178,29 +1167,11 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="dbDummy://dbtable:/79fe87aa/91a6ec93-fe95-4dc1-a250-f31513d02b16/i1macura.project.action">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100" />
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/CardEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="175" column="41" selection-start="4623" selection-end="4623" vertical-scroll-proportion="0.0" vertical-offset="1470" max-vertical-offset="2145" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/ActionEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entity/RaceEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825" />
+        <state line="9" column="13" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="uml://Persistence/JavaeeElement:/79fe87aa/hibernate.cfg.xml/BazyDanych/hibernate/Hibernate/PersistenceModel">
@@ -1235,13 +1206,6 @@
         <state line="15" column="55" selection-start="808" selection-end="808" vertical-scroll-proportion="0.4787234" vertical-offset="0" max-vertical-offset="585" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/details/card/CardDetailsC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="21" selection-start="3496" selection-end="3496" vertical-scroll-proportion="1.5744681" vertical-offset="775" max-vertical-offset="2160">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/sql/backUp.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-8.536082" vertical-offset="4140" max-vertical-offset="6465" />
@@ -1249,34 +1213,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/details/user/UserDetailsM.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/statistic/deck/DeckStatisticC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="117" selection-start="4414" selection-end="4414" vertical-scroll-proportion="0.0" vertical-offset="691" max-vertical-offset="1410">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/details/user/UserDetailsC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="12" selection-start="923" selection-end="923" vertical-scroll-proportion="0.0" vertical-offset="332" max-vertical-offset="825">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#249#250#0" expanded="false" />
-            <element signature="e#276#277#0" expanded="false" />
-            <element signature="e#322#323#0" expanded="false" />
-            <element signature="e#354#355#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsV.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
+        <state line="8" column="0" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/commons/models/CardListTableModel.java">
@@ -1286,44 +1223,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/search/card/SearchCardC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="29" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="885">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/details/card/CardDetailsV.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
+        <state line="13" column="29" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="885" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/search/action/SearchActionM.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="40" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="11" column="40" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/commons/models/ActionListTableModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="25" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0" vertical-offset="130" max-vertical-offset="930" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/details/action/ActionDetailsV.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/details/action/ActionDetailsV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="38" selection-start="949" selection-end="949" vertical-scroll-proportion="0.0" vertical-offset="332" max-vertical-offset="1560">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#936#1104#0" expanded="false" />
-            <element signature="e#1093#1094#0" expanded="false" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/details/action/ActionDetailsC.java">
@@ -1342,37 +1252,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/search/card/SearchCardV.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="20" selection-start="1153" selection-end="1505" vertical-scroll-proportion="0.0" vertical-offset="222" max-vertical-offset="1650">
-          <folding>
-            <element signature="e#1169#1637#0" expanded="false" />
-            <element signature="e#1626#1627#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="49" column="20" selection-start="1153" selection-end="1505" vertical-scroll-proportion="0.0" vertical-offset="222" max-vertical-offset="1650" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/search/action/SearchActionV.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="37" selection-start="1470" selection-end="1470" vertical-scroll-proportion="0.0" vertical-offset="273" max-vertical-offset="1620">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="47" column="37" selection-start="1470" selection-end="1470" vertical-scroll-proportion="0.0" vertical-offset="273" max-vertical-offset="1620" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/search/action/SearchActionC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="72" selection-start="1640" selection-end="1640" vertical-scroll-proportion="1.185567" vertical-offset="235" max-vertical-offset="945">
-          <folding />
-        </state>
+        <state line="62" column="72" selection-start="1640" selection-end="1640" vertical-scroll-proportion="1.185567" vertical-offset="235" max-vertical-offset="945" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/search/user/SearchUserM.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="37" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="11" column="37" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/commons/models/UserListTableModel.java">
@@ -1382,23 +1277,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/search/deck/SearchDeckV.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="17" selection-start="1067" selection-end="1492" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1275">
-          <folding>
-            <element signature="e#1142#1610#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="48" column="17" selection-start="1067" selection-end="1492" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1275" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/core/main/MainApplicationV.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/main/MainApplicationV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="44" selection-start="2008" selection-end="2008" vertical-scroll-proportion="0.0" vertical-offset="326" max-vertical-offset="1635">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/search/user/SearchUserV.form">
@@ -1408,14 +1292,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/search/user/SearchUserC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="31" selection-start="1317" selection-end="1317" vertical-scroll-proportion="0.0" vertical-offset="265" max-vertical-offset="990">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/details/user/UserDetailsV.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
+        <state line="57" column="31" selection-start="1317" selection-end="1317" vertical-scroll-proportion="0.0" vertical-offset="265" max-vertical-offset="990" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/sql/basicCard.sql">
@@ -1425,73 +1302,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/search/user/SearchUserV.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="572" selection-end="572" vertical-scroll-proportion="0.0" vertical-offset="805" max-vertical-offset="1515">
-          <folding />
-        </state>
+        <state line="23" column="0" selection-start="572" selection-end="572" vertical-scroll-proportion="0.0" vertical-offset="805" max-vertical-offset="1515" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entity/EditionEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0" vertical-offset="92" max-vertical-offset="690" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/DeckEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="42" selection-start="1230" selection-end="1253" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1005" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/UserEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="44" selection-start="1857" selection-end="1857" vertical-scroll-proportion="0.0" vertical-offset="535" max-vertical-offset="1065">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="53" selection-start="674" selection-end="674" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+        <state line="12" column="13" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0" vertical-offset="92" max-vertical-offset="690">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/commons/security/Hashing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="14" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="122" max-vertical-offset="855">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/main/MainApplicationC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="8" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="825">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="154" selection-start="1369" selection-end="1369" vertical-scroll-proportion="0.0" vertical-offset="116" max-vertical-offset="1530">
-          <folding />
-        </state>
+        <state line="18" column="14" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="122" max-vertical-offset="855" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/search/deck/SearchDeckC.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="55" column="0" selection-start="1128" selection-end="1128" vertical-scroll-proportion="0.0" vertical-offset="407" max-vertical-offset="900">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="21" selection-start="1922" selection-end="1922" vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="3675">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/details/user/UserDetailsV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="18" selection-start="1547" selection-end="1547" vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="2730">
           <folding />
         </state>
       </provider>
@@ -1503,25 +1331,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/commons/Commons.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="40" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="1110">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/commons/HibernateFunctions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="78" selection-start="2018" selection-end="2018" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="3240">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BazyDanych.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -1538,14 +1350,163 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/core/forms/LoginDialog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="210" selection-end="210" vertical-scroll-proportion="-2.0106838" vertical-offset="1001" max-vertical-offset="1740">
+        <state line="9" column="13" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1575" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/details/action/ActionDetailsV.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/details/action/ActionDetailsV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="38" selection-start="940" selection-end="940" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="2340" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/commons/Commons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="40" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="1110">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/details/card/CardDetailsV.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/details/card/CardDetailsV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="35" selection-start="2126" selection-end="2126" vertical-scroll-proportion="0.0" vertical-offset="271" max-vertical-offset="4770">
           <folding>
-            <element signature="e#1037#1165#0" expanded="true" />
-            <element signature="e#1154#1155#0" expanded="true" />
-            <element signature="e#1821#1822#0" expanded="true" />
-            <element signature="e#1850#1851#0" expanded="true" />
-            <element signature="initializer##0;class#LoginDialog#0" expanded="true" />
-            <element signature="initializer##0;class#LoginDialog#0" expanded="true" />
+            <element signature="e#1989#2155#0" expanded="true" />
+            <element signature="e#2144#2145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/details/card/CardDetailsC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="149" column="101" selection-start="4536" selection-end="4536" vertical-scroll-proportion="0.0" vertical-offset="1513" max-vertical-offset="2220">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsV.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="34" selection-start="2291" selection-end="2291" vertical-scroll-proportion="0.0" vertical-offset="361" max-vertical-offset="3030">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/details/user/UserDetailsV.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/details/user/UserDetailsC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="111" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="53" selection-start="674" selection-end="674" vertical-scroll-proportion="0.2545969" vertical-offset="0" max-vertical-offset="707">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/main/MainApplicationC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="58" selection-start="908" selection-end="908" vertical-scroll-proportion="0.0" vertical-offset="230" max-vertical-offset="825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entity/UserEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="40" selection-start="1853" selection-end="1853" vertical-scroll-proportion="0.0" vertical-offset="535" max-vertical-offset="1065">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entity/ActionEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entity/CardEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="179" column="4" selection-start="4722" selection-end="5022" vertical-scroll-proportion="0.0" vertical-offset="1700" max-vertical-offset="2160">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/statistic/deck/DeckStatisticC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="56" selection-start="1671" selection-end="1671" vertical-scroll-proportion="0.0" vertical-offset="61" max-vertical-offset="1680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/main/MainApplicationV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="44" selection-start="2020" selection-end="2020" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="2325">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/details/user/UserDetailsV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0" vertical-offset="196" max-vertical-offset="2310">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/commons/HibernateFunctions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="223" column="10" selection-start="7560" selection-end="7560" vertical-scroll-proportion="0.0" vertical-offset="3155" max-vertical-offset="3615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="121" column="111" selection-start="3701" selection-end="3701" vertical-scroll-proportion="0.0" vertical-offset="853" max-vertical-offset="1590">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entity/DeckEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="65" selection-start="1395" selection-end="1395" vertical-scroll-proportion="0.51086956" vertical-offset="710" max-vertical-offset="1380">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#1082#1083#0" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
+            <element signature="e#1171#1172#0" expanded="true" />
+            <element signature="e#1215#1216#0" expanded="true" />
+            <element signature="e#1704#1705#0" expanded="true" />
+            <element signature="e#1736#1737#0" expanded="true" />
+            <element signature="e#1802#1803#0" expanded="true" />
+            <element signature="e#1844#1845#0" expanded="true" />
+            <element signature="e#1943#1944#0" expanded="true" />
+            <element signature="e#1970#1971#0" expanded="true" />
+            <element signature="e#2014#2015#0" expanded="true" />
+            <element signature="e#2046#2047#0" expanded="true" />
           </folding>
         </state>
       </provider>
