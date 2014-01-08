@@ -1,0 +1,11 @@
+insert into project.card (name,addicionallcost,basiccost,count,defence,strenght,subtypes,edition_name,race_name,type_name) values('Płomienie feniksa',3,4,3,0,NULL,'Zaklęcie','Szturm na Ulthan','Elfy Wysokiego Rodu','Taktyka');
+insert into project.card (name,addicionallcost,basiccost,count,defence,strenght,subtypes,edition_name,race_name,type_name) values('Cytadela Zmierzchu',2,3,3,0,1,'Budowla','Marsz Potępionych','Elfy Wysokiego Rodu','Wsparcie');
+insert into project.card (name,addicionallcost,basiccost,count,defence,strenght,subtypes,edition_name,race_name,type_name) values('Osąd Loeca',3,1,3,0,0,'Dodatek,Zaklęcie','Legendy','Elfy Wysokiego Rodu','Wsparcie');
+insert into project.card (name,addicionallcost,basiccost,count,defence,strenght,subtypes,edition_name,race_name,type_name) values('Tyrion',5,6,3,4,2,0,'Legendy','Elfy Wysokiego Rodu','Legenda');
+insert into project.card (name,addicionallcost,basiccost,count,defence,strenght,subtypes,edition_name,race_name,type_name) values('Łzy Ishy',1,1,2,0,0,'Zaklęcie','Szturm na Ulthan','Elfy Wysokiego Rodu','Taktyka');
+insert into project.card (name,addicionallcost,basiccost,count,defence,strenght,subtypes,edition_name,race_name,type_name) values('Szpon Feniksa',2,1,3,0,0,'Dodatek,Broń','Kataklizm','Elfy Wysokiego Rodu','Wsparcie');
+insert into project.card (name,addicionallcost,basiccost,count,defence,strenght,subtypes,edition_name,race_name,type_name) values('Mistyczna Uzdrowicielka',2,2,3,2,1,'Czarodziej','Kataklizm','Elfy Wysokiego Rodu','Jednostka');
+insert into project.card (name,addicionallcost,basiccost,count,defence,strenght,subtypes,edition_name,race_name,type_name) values('Lśniąca Wieża',1,2,3,0,1,'Budowla','Szturm na Ulthan','Elfy Wysokiego Rodu','Wsparcie');
+insert into project.card (name,addicionallcost,basiccost,count,defence,strenght,subtypes,edition_name,race_name,type_name) values('Pomiot Itzla',0,3,3,1,0,'','Marsz Potępionych','Jaszczuroludzie','Jednostka');
+insert into project.card (name,addicionallcost,basiccost,count,defence,strenght,subtypes,edition_name,race_name,type_name) values('Elfi Wierzchowiec',2,1,3,0,0,'dodatek','Legendy','Elfy Wysokiego Rodu','Wsparcie');
+insert into project.card (name,addicionallcost,basiccost,count,defence,strenght,subtypes,edition_name,race_name,type_name) values('Archaon',5,7,3,5,3,'Legenda','Legendy','Chaos','Legenda');
