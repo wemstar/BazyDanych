@@ -39,7 +39,7 @@ public class DeckDetailsC {
             public void cardAction(CardEntity entity) {
                 DeckDetailsM model= view.getModel();
                 DeckEntity enti=model.entity;
-                if(entity.getRace().getFraction().equals("Neutralni")||!enti.getBasic_race().getFraction().equals(entity.getRace().getFraction())) return;
+                if(entity.getRace()==null || entity.getRace().getFraction().equals("Neutralni")||!enti.getBasic_race().getFraction().equals(entity.getRace().getFraction())) return;
                 if(enti.getCard_list().contains(entity))
                 {
                     for(CardEntity card: new ArrayList<CardEntity>(enti.getCard_list()))

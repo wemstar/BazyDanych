@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75334a99-bbd6-431e-8b96-78b92eb666c5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/details/card/CardDetailsM.java" afterPath="$PROJECT_DIR$/src/main/java/details/card/CardDetailsM.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/details/card/CardDetailsV.java" afterPath="$PROJECT_DIR$/src/main/java/details/card/CardDetailsV.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/statistic/deck/DeckStatisticC.java" afterPath="$PROJECT_DIR$/src/main/java/statistic/deck/DeckStatisticC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__antlr_2_7_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__antlr_2_7_7.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__aopalliance_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__aopalliance_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_logging_1_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_logging_1_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__dom4j_1_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__dom4j_1_6_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__hamcrest_core_1_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__hibernate_commons_annotations_4_0_2_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__hibernate_commons_annotations_4_0_2_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__hibernate_core_4_2_7_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__hibernate_core_4_2_7_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__hibernate_jpa_2_0_api_1_0_1_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__hibernate_jpa_2_0_api_1_0_1_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javassist_3_18_1_GA.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javassist_3_18_1_GA.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__jboss_logging_3_1_0_GA.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jboss_logging_3_1_0_GA.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__jboss_transaction_api_1_1_spec_1_0_1_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jboss_transaction_api_1_1_spec_1_0_1_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__jcommon_1_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jcommon_1_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__jfreechart_1_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jfreechart_1_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_3_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_3_8.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_4_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_4_11.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__postgresql_9_1_901_jdbc4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__postgresql_9_1_901_jdbc4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__spring_aop_3_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__spring_aop_3_2_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__spring_beans_3_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__spring_beans_3_2_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__spring_context_3_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__spring_context_3_2_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__spring_core_3_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__spring_core_3_2_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__spring_expression_3_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__spring_expression_3_2_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/commons/HibernateFunctions.java" afterPath="$PROJECT_DIR$/src/main/java/commons/HibernateFunctions.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsC.java" afterPath="$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsC.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BazyDanych.iws" />
@@ -145,7 +119,7 @@
       <file leaf-file-name="DeckDetailsC.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="0" selection-start="1215" selection-end="1215" vertical-scroll-proportion="0.33333334" vertical-offset="218" max-vertical-offset="1590">
+            <state line="41" column="45" selection-start="1260" selection-end="1260" vertical-scroll-proportion="0.33333334" vertical-offset="218" max-vertical-offset="1590">
               <folding />
             </state>
           </provider>
@@ -425,7 +399,6 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/core/forms/LoginDialog.java" />
         <option value="$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsV.java" />
-        <option value="$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsC.java" />
         <option value="$PROJECT_DIR$/src/main/java/details/user/UserDetailsV.java" />
         <option value="$PROJECT_DIR$/src/main/java/details/user/UserDetailsC.java" />
         <option value="$PROJECT_DIR$/src/main/java/core/main/MainApplicationC.java" />
@@ -439,6 +412,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/java/details/card/CardDetailsV.java" />
         <option value="$PROJECT_DIR$/src/main/java/commons/HibernateFunctions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsC.java" />
       </list>
     </option>
   </component>
@@ -976,7 +950,7 @@
       <workItem from="1388961854658" duration="89000" />
       <workItem from="1389211521013" duration="1441000" />
       <workItem from="1389213080075" duration="348000" />
-      <workItem from="1389546343201" duration="3256000" />
+      <workItem from="1389546343201" duration="3321000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;problem z data source">
       <created>1387491090656</created>
@@ -1026,11 +1000,15 @@
       <created>1389213379442</created>
       <updated>1389213379442</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="ostateczna wersja projektu">
+      <created>1389549947453</created>
+      <updated>1389549947453</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107936000" />
+    <option name="totallyTimeSpent" value="108001000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1146,7 +1124,8 @@
     <MESSAGE value="Poprawiono usuwanie card z decku" />
     <MESSAGE value="Poprawiono mapowanie strinaga" />
     <MESSAGE value="Poprawiono gradle build&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Poprawiono gradle build&#10;" />
+    <MESSAGE value="ostateczna wersja projektu" />
+    <option name="LAST_COMMIT_MESSAGE" value="ostateczna wersja projektu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1441,7 +1420,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/details/deck/DeckDetailsC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1215" selection-end="1215" vertical-scroll-proportion="0.33333334" vertical-offset="218" max-vertical-offset="1590">
+        <state line="41" column="45" selection-start="1260" selection-end="1260" vertical-scroll-proportion="0.33333334" vertical-offset="218" max-vertical-offset="1590">
           <folding />
         </state>
       </provider>
