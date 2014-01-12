@@ -224,7 +224,7 @@ public class CardDetailsV {
     }
 
     public void setImage(BufferedImage image) {
-
+        if(image==null)return;
         imagePanel.removeAll();
         imagePanel.add(new JLabel(new ImageIcon(image)));
         imagePanel.updateUI();

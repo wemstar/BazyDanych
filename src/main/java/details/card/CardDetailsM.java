@@ -15,11 +15,11 @@ public class CardDetailsM {
     public TypeEntity type;
     public RaceEntity race;
     public EditionEntity edition;
-    public Integer cost;
-    public Integer addicionalCost;
-    public Integer strenght;
-    public Integer defence;
-    public Integer count;
+    public Integer cost=new Integer(0);
+    public Integer addicionalCost=new Integer(0);;
+    public Integer strenght=new Integer(0);
+    public Integer defence=new Integer(0);
+    public Integer count=new Integer(0);
     public String subTypes;
     public List<ActionEntity> action;
     public String name;

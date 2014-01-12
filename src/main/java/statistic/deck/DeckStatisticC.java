@@ -33,7 +33,7 @@ public class DeckStatisticC {
         DeckStatisticM model=view.getModel();
         JFreeChart chart1= ChartFactory.createPieChart("Statystyka typów",model.dataset1,true,true,false);
         JFreeChart chart2=ChartFactory.createBarChart("Statystyka siły i obrony kart do ich kosztu","Koszt","Wartość",model.dataset2, PlotOrientation.VERTICAL,true,true,false);
-        JFreeChart chart3=ChartFactory.createBarChart("Liczba kart o podanym koszczie","Koszt","Ilość",model.dataset3, PlotOrientation.VERTICAL,true,true,false);
+        JFreeChart chart3=ChartFactory.createBarChart("Liczba kart o podanym koszcie","Koszt","Ilość",model.dataset3, PlotOrientation.VERTICAL,true,true,false);
         JFreeChart chart4= ChartFactory.createPieChart("Statystyka ras",model.dataset4,true,true,false);
 
         view.getPanelOne().add(new ChartPanel(chart1));

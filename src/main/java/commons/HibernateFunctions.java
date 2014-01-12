@@ -221,7 +221,7 @@ public class HibernateFunctions {
         UserEntity currentUser=null;
         UserEntity user= (UserEntity) session.get(UserEntity.class,login);
         password=Hashing.hashPassword(password);
-        //if(Hashing.comparePassword(password,user.getPassword()))
+        if(Hashing.comparePassword(password,user.getPassword()))
             currentUser=user;
         session.close();
         return currentUser;
