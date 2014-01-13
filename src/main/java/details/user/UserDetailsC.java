@@ -4,6 +4,7 @@ import commons.Commons;
 import commons.HibernateFunctions;
 import entity.UserEntity;
 
+import javax.swing.*;
 import java.util.Arrays;
 
 /**
@@ -44,7 +45,16 @@ public class UserDetailsC {
     public void saveUser() throws Exception {
 
         updateModel();
-        if(!Arrays.equals(view.getPassword(),view.getPasswordConfirm()))throw new Exception();
+        if(!Arrays.equals(view.getPassword(),view.getPasswordConfirm()))
+        {
+            JOptionPane.showMessageDialog(null, "Hasła muszą się zgadzać", "Wrong ", JOptionPane.ERROR_MESSAGE);
+            return;
+        }
+        if(view.getModel().entity.getNick().isEmpty())
+        {
+            JOptionPane.showMessageDialog(null, "Pole nick nie może byc puste", "Wrong ", JOptionPane.ERROR_MESSAGE);
+            return;
+        }
         HibernateFunctions.saveUser(view.getModel().entity);
     }
 

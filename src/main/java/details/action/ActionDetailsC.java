@@ -4,6 +4,8 @@ import commons.HibernateFunctions;
 import entity.ActionEntity;
 import org.w3c.dom.html.HTMLModElement;
 
+import javax.swing.*;
+
 /**
  * Created by wemstar on 17.12.13.
  */
@@ -43,7 +45,11 @@ public class ActionDetailsC
     public void saveAction() {
         updateModel();
         ActionEntity entity=view.getModel().entity;
-
+        if(entity.getName().isEmpty())
+        {
+            JOptionPane.showMessageDialog(null, "Pole name nie może byc puste", "Wrong ", JOptionPane.ERROR_MESSAGE);
+            return;
+        }
         HibernateFunctions.saveAction(entity);
     }
 

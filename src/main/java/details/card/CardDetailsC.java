@@ -5,6 +5,7 @@ import commons.HibernateFunctions;
 import entity.*;
 
 import javax.imageio.ImageIO;
+import javax.swing.*;
 import java.awt.image.BufferedImage;
 import java.io.*;
 
@@ -131,7 +132,14 @@ public class CardDetailsC {
 
     public void saveCard() {
 
-        HibernateFunctions.saveCard(castToEntity());
+        updateModel();
+        CardEntity entity= castToEntity();
+        if(entity.getName().isEmpty())
+        {
+            JOptionPane.showMessageDialog(null, "Pole name nie może byc puste", "Wrong ", JOptionPane.ERROR_MESSAGE);
+            return;
+        }
+        HibernateFunctions.saveCard(entity);
     }
 
     public void loadFile(File selectedFile) {

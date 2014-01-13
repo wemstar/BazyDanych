@@ -39,7 +39,11 @@ public class DeckDetailsC {
             public void cardAction(CardEntity entity) {
                 DeckDetailsM model= view.getModel();
                 DeckEntity enti=model.entity;
-                if(entity.getRace()==null || entity.getRace().getFraction().equals("Neutralni")||!enti.getBasic_race().getFraction().equals(entity.getRace().getFraction())) return;
+                if(entity.getRace()==null || entity.getRace().getFraction().equals("Neutralni")||!enti.getBasic_race().getFraction().equals(entity.getRace().getFraction()))
+                {
+                    JOptionPane.showMessageDialog(null, "Rasy muszą byc z tej samej frakcji", "Wrong ", JOptionPane.ERROR_MESSAGE);
+                    return;
+                }
                 if(enti.getCard_list().contains(entity))
                 {
                     for(CardEntity card: new ArrayList<CardEntity>(enti.getCard_list()))
@@ -90,6 +94,11 @@ public class DeckDetailsC {
     public void saveDeck() {
         updateModel();
         DeckDetailsM model= view.getModel();
+        if(model.entity.getName().isEmpty())
+        {
+            JOptionPane.showMessageDialog(null, "Pole name nie może byc puste", "Wrong ", JOptionPane.ERROR_MESSAGE);
+            return;
+        }
         HibernateFunctions.saveDeck(model.entity);
         updateView();
     }
